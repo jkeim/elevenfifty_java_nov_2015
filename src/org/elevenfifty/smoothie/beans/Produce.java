@@ -1,5 +1,8 @@
 package org.elevenfifty.smoothie.beans;
 
+import org.apache.commons.lang3.builder.EqualsBuilder;
+import org.apache.commons.lang3.builder.HashCodeBuilder;
+
 public class Produce implements Comparable<Produce> {
 
 	private int calories;
@@ -10,24 +13,23 @@ public class Produce implements Comparable<Produce> {
 
 	@Override
 	public boolean equals(Object obj) {
-		if (obj instanceof Produce) {
-			Produce pro = (Produce) obj;
-			try {
-				return this.name.equalsIgnoreCase(pro.getName());
-			} catch (NullPointerException npe) {
-				npe.printStackTrace();
-				// Check to see if the other object has a null value for name.
-				// If both null they are equal
-				return pro.getName() == null;
-			}
-		} else {
+		if (obj == null) {
 			return false;
 		}
+		if (obj == this) {
+			return true;
+		}
+		if (obj.getClass() != getClass()) {
+			return false;
+		}
+
+		Produce rhs = (Produce) obj;
+		return new EqualsBuilder().appendSuper(super.equals(obj)).append(this.name, rhs.name).isEquals();
 	}
 
 	@Override
 	public int hashCode() {
-		return this.name.toLowerCase().hashCode();
+		return new HashCodeBuilder().append(this.name).toHashCode();
 	}
 
 	@Override
