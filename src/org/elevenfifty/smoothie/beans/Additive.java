@@ -11,6 +11,24 @@ public class Additive {
 	private int weight;
 	private boolean organic = false;
 	private int calories;
+	
+	@Override
+	public boolean equals(Object obj) {
+		if (obj instanceof Additive) {
+			Additive add = (Additive) obj;
+			try {
+				return this.name.equalsIgnoreCase(add.getName());
+			} catch (NullPointerException npe) {
+				npe.printStackTrace();
+				// Check to see if the other object has a null value for name.
+				// If both null they are equal
+				return add.getName() == null;
+			}
+		} else {
+			return false;
+		}
+	}
+	
 
 	public String getName() {
 		return name;
