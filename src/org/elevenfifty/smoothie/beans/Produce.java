@@ -7,10 +7,10 @@ public class Produce implements Comparable<Produce> {
 
 	public static void main(String[] arg) {
 		Produce tomato = new Produce();
-		tomato.calories = 2;
+		tomato.setCalories(2);
 		tomato.name = "tomato";
 		tomato.type = "Vegetable";
-		tomato.price = .11;
+		tomato.price = 0.11;
 		tomato.weight = 1;
 
 		Produce kale = new Produce();

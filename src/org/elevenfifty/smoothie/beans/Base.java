@@ -1,11 +1,6 @@
 package org.elevenfifty.smoothie.beans;
 
-public class Base {
-
-	private String name;
-	private int weight; // grams
-	private int calories;
-	private double price;
+public class Base extends AbstractIngredient implements Comparable<Base> {
 
 	@Override
 	public boolean equals(Object obj) {
@@ -29,11 +24,6 @@ public class Base {
 		return this.name.toLowerCase().hashCode();
 	}
 
-	@Override
-	public String toString() {
-		return this.name;
-	}
-
 	public int compareTo(Base base) {
 		// return (int) this.price - (int) base.getPrice();
 		return this.name.compareToIgnoreCase(base.getName());
@@ -45,37 +35,4 @@ public class Base {
 		System.out.println(x.toString());
 		System.out.println(Integer.toString(12));
 	}
-
-	public String getName() {
-		return name;
-	}
-
-	public void setName(String name) {
-		this.name = name;
-	}
-
-	public int getWeight() {
-		return weight;
-	}
-
-	public void setWeight(int weight) {
-		this.weight = weight;
-	}
-
-	public int getCalories() {
-		return calories;
-	}
-
-	public void setCalories(int calories) {
-		this.calories = calories;
-	}
-
-	public double getPrice() {
-		return price;
-	}
-
-	public void setPrice(double price) {
-		this.price = price;
-	}
-
 }
