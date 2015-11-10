@@ -12,25 +12,13 @@ public class Additive extends AbstractIngredient {
 	private boolean fdaApproved = false;
 
 	@Override
-	public boolean equals(Object obj) {
-		if (obj instanceof Additive) {
-			Additive add = (Additive) obj;
-			try {
-				return this.name.equalsIgnoreCase(add.getName());
-			} catch (NullPointerException npe) {
-				npe.printStackTrace();
-				// Check to see if the other object has a null value for name.
-				// If both null they are equal
-				return add.getName() == null;
-			}
-		} else {
-			return false;
-		}
+	public int hashCode() {
+		return new HashCodeBuilder().append(this.name).toHashCode();
 	}
 
 	@Override
-	public int hashCode() {
-		return new HashCodeBuilder().append(this.name).toHashCode();
+	public String toString() {
+		return "Additive [toString()=" + super.toString() + "]";
 	}
 
 	public Category getCategory() {
