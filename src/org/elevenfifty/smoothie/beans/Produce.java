@@ -3,7 +3,7 @@ package org.elevenfifty.smoothie.beans;
 import org.apache.commons.lang3.builder.EqualsBuilder;
 import org.apache.commons.lang3.builder.HashCodeBuilder;
 
-public class Produce implements Comparable<Produce> {
+public class Produce implements Ingredient, Comparable<Produce> {
 
 	public static void main(String[] arg) {
 		Produce tomato = new Produce();
