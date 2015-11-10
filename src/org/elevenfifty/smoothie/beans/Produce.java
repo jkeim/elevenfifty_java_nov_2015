@@ -5,6 +5,32 @@ import org.apache.commons.lang3.builder.HashCodeBuilder;
 
 public class Produce implements Comparable<Produce> {
 
+	public static void main(String[] arg) {
+		Produce tomato = new Produce();
+		tomato.calories = 2;
+		tomato.name = "tomato";
+		tomato.type = "Vegetable";
+		tomato.price = .11;
+		tomato.weight = 1;
+
+		Produce kale = new Produce();
+		kale.calories = 3;
+		kale.name = "kale";
+		kale.type = "Vegetable";
+		kale.price = .12;
+		kale.weight = 1;
+
+		Produce apple = new Produce();
+		apple.calories = 4;
+		apple.name = "apple";
+		apple.type = "Fruit";
+		apple.price = .10;
+		apple.weight = 1;
+
+		// System.out.println(apple.calories + "equals the calories count for
+		// apple");
+	}
+
 	private int calories;
 	private String name;
 	private String type;
