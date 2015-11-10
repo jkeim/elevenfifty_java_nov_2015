@@ -1,16 +1,15 @@
 package org.elevenfifty.smoothie.beans;
 
-public class Additive {
+import org.apache.commons.lang3.builder.HashCodeBuilder;
+
+public class Additive extends AbstractIngredient {
 	public static enum Category {
 		PROTEIN, NUTRIENT, ENERGY, ANTIOXIDANT
 	};
 
-	private String name;
 	private Category category;
-	private double price;
-	private int weight;
 	private boolean organic = false;
-	private int calories;
+	private boolean fdaApproved = false;
 
 	@Override
 	public boolean equals(Object obj) {
@@ -29,14 +28,9 @@ public class Additive {
 		}
 	}
 
-	// TODO HashCode!!!!!
-
-	public String getName() {
-		return name;
-	}
-
-	public void setName(String name) {
-		this.name = name;
+	@Override
+	public int hashCode() {
+		return new HashCodeBuilder().append(this.name).toHashCode();
 	}
 
 	public Category getCategory() {
@@ -47,22 +41,6 @@ public class Additive {
 		this.category = category;
 	}
 
-	public double getPrice() {
-		return price;
-	}
-
-	public void setPrice(double price) {
-		this.price = price;
-	}
-
-	public int getWeight() {
-		return weight;
-	}
-
-	public void setWeight(int weight) {
-		this.weight = weight;
-	}
-
 	public boolean isOrganic() {
 		return organic;
 	}
@@ -71,11 +49,12 @@ public class Additive {
 		this.organic = organic;
 	}
 
-	public int getCalories() {
-		return calories;
+	public boolean isFdaApproved() {
+		return fdaApproved;
 	}
 
-	public void setCalories(int calories) {
-		this.calories = calories;
+	public void setFdaApproved(boolean fdaApproved) {
+		this.fdaApproved = fdaApproved;
 	}
+
 }
