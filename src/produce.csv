@@ -1,0 +1,233 @@
+Type,PLU Code,Name, Price per Unit ,Calories,Weight
+Produce,0001,Acorn squash, $0.33 ,234,143
+Produce,0002,Alfalfa sprouts, $0.75 ,283,231
+Produce,0003,Amaranth, $0.58 ,228,133
+Produce,0004,Anise, $0.93 ,105,10
+Produce,0005,Apple, $0.11 ,159,13
+Produce,0006,Apricot, $0.59 ,266,60
+Produce,0007,Artichoke, $0.01 ,126,161
+Produce,0008,Arugula, $0.12 ,44,200
+Produce,0009,Asparagus, $0.73 ,274,232
+Produce,0010,Avocado, $0.43 ,110,32
+Produce,0011,Banana, $0.21 ,80,34
+Produce,0012,Banana squash, $0.38 ,107,189
+Produce,0013,Basil, $0.64 ,266,211
+Produce,0014,Bean sprouts, $0.24 ,266,164
+Produce,0015,Beet, $0.74 ,54,63
+Produce,0016,Bilberry, $0.20 ,269,114
+Produce,0017,Black beans, $0.54 ,273,128
+Produce,0018,Blackberry, $0.84 ,4,187
+Produce,0019,Blackcurrant, $0.65 ,282,29
+Produce,0020,Black-eyed peas, $0.65 ,73,119
+Produce,0021,Blood Orange, $0.09 ,226,137
+Produce,0022,Blueberry, $0.60 ,150,209
+Produce,0023,Bok choy, $0.56 ,187,87
+Produce,0024,Borlotti bean, $0.33 ,177,89
+Produce,0025,Boysenberry, $0.49 ,192,68
+Produce,0026,Broad beans, $0.15 ,169,32
+Produce,0027,Broccoli, $0.90 ,90,192
+Produce,0028,Brussels sprouts, $0.62 ,298,64
+Produce,0029,Butternut squash, $0.45 ,12,19
+Produce,0030,Cabbage, $0.12 ,210,152
+Produce,0031,Calabrese, $0.28 ,81,158
+Produce,0032,Cannabis, $0.12 ,280,55
+Produce,0033,Cantaloupe, $0.75 ,132,125
+Produce,0034,Caraway, $0.22 ,215,53
+Produce,0035,Carrot, $0.92 ,248,99
+Produce,0036,Carrots, $0.51 ,15,156
+Produce,0037,Cauliflower, $0.57 ,219,132
+Produce,0038,Cayenne pepper, $0.52 ,101,230
+Produce,0039,Celeriac, $0.64 ,260,102
+Produce,0040,Celery, $0.57 ,169,46
+Produce,0041,Chamomile, $0.05 ,248,111
+Produce,0042,Chard, $0.13 ,244,80
+Produce,0043,Cherimoya, $0.43 ,55,123
+Produce,0044,Cherry, $0.90 ,256,228
+Produce,0045,Chickpeas, $0.11 ,214,128
+Produce,0046,Chives, $0.65 ,73,178
+Produce,0047,Cilantro, $0.24 ,263,137
+Produce,0048,Clementine, $0.76 ,266,178
+Produce,0049,Cloudberry, $0.41 ,132,186
+Produce,0050,Coconut, $0.74 ,250,80
+Produce,0051,Collard greens, $0.69 ,282,93
+Produce,0052,Corn, $0.85 ,206,183
+Produce,0053,Corn salad, $0.64 ,245,216
+Produce,0054,Cranberry, $0.87 ,165,120
+Produce,0055,Cucumber, $0.46 ,89,208
+Produce,0056,Currant, $0.85 ,8,246
+Produce,0057,Daikon, $0.92 ,145,154
+Produce,0058,Damson, $0.54 ,207,143
+Produce,0059,Date, $0.32 ,20,61
+Produce,0060,Dill, $0.76 ,61,50
+Produce,0061,Dragonfruit, $0.11 ,168,92
+Produce,0062,Durian, $0.40 ,178,43
+Produce,0063,Eggplant, $0.80 ,100,246
+Produce,0064,Elderberry, $0.16 ,255,232
+Produce,0065,Endive, $0.21 ,91,190
+Produce,0066,Feijoa, $0.80 ,228,162
+Produce,0067,Fennel, $0.21 ,43,188
+Produce,0068,Fiddleheads, $0.94 ,249,112
+Produce,0069,Fig, $0.44 ,171,87
+Produce,0070,Frisee, $0.02 ,70,139
+Produce,0071,Garlic, $0.72 ,92,142
+Produce,0072,Gem squash, $0.65 ,185,67
+Produce,0073,Ginger, $0.82 ,216,71
+Produce,0074,Goji berry, $0.39 ,133,6
+Produce,0075,Gooseberry, $0.11 ,255,28
+Produce,0076,Grape, $0.80 ,54,158
+Produce,0077,Grapefruit, $0.18 ,161,75
+Produce,0078,Green beans, $0.08 ,268,201
+Produce,0079,Green Pepper, $0.28 ,173,62
+Produce,0080,Guava, $0.38 ,81,180
+Produce,0081,Habanero, $0.29 ,134,194
+Produce,0082,Honeydew, $0.20 ,233,68
+Produce,0083,Horseradish, $0.08 ,124,160
+Produce,0084,Huckleberry, $0.11 ,41,170
+Produce,0085,Jabouticaba, $0.62 ,163,235
+Produce,0086,Jackfruit, $0.46 ,184,176
+Produce,0087,Jalapeno, $0.13 ,84,18
+Produce,0088,Jambul, $0.44 ,259,105
+Produce,0089,Jerusalem artichoke, $0.29 ,185,164
+Produce,0090,Jicama, $0.62 ,272,163
+Produce,0091,Jujube, $0.12 ,114,176
+Produce,0092,Juniper berry, $0.52 ,34,148
+Produce,0093,Kale, $0.29 ,289,4
+Produce,0094,Kidney beans, $0.84 ,130,108
+Produce,0095,Kiwi fruit, $0.58 ,66,82
+Produce,0096,Kohlrabi, $0.91 ,273,49
+Produce,0097,Kumquat, $0.64 ,172,117
+Produce,0098,Lavender, $0.91 ,34,134
+Produce,0099,Leek, $0.36 ,145,122
+Produce,0100,Lemon, $0.02 ,24,90
+Produce,0101,Lemon Grass, $0.19 ,274,41
+Produce,0102,Lentils, $0.83 ,1,229
+Produce,0103,Lettuce, $0.92 ,169,138
+Produce,0104,Lima beans, $0.49 ,281,243
+Produce,0105,Lime, $0.26 ,204,217
+Produce,0106,Loquat, $0.05 ,94,160
+Produce,0107,Lychee, $0.18 ,118,23
+Produce,0108,Mandarine, $0.90 ,277,106
+Produce,0109,Mango, $0.94 ,290,94
+Produce,0110,Marion berry, $0.09 ,234,164
+Produce,0111,Marjoram, $0.06 ,289,124
+Produce,0112,Melon, $0.22 ,222,218
+Produce,0113,Miracle fruit, $0.51 ,123,47
+Produce,0114,Mulberry, $0.12 ,76,28
+Produce,0115,Mung beans, $0.68 ,95,114
+Produce,0116,Mushrooms, $0.96 ,50,104
+Produce,0117,Mustard greens, $0.86 ,140,44
+Produce,0118,Navy beans, $0.45 ,162,116
+Produce,0119,Nectarine, $0.66 ,178,241
+Produce,0120,Nettles, $0.22 ,166,21
+Produce,0121,Okra, $0.39 ,234,173
+Produce,0122,Olive, $0.87 ,190,149
+Produce,0123,Onion, $0.46 ,294,25
+Produce,0124,Orange, $0.46 ,172,110
+Produce,0125,Oregano, $0.94 ,47,178
+Produce,0126,Papaya, $0.79 ,296,233
+Produce,0127,Paprika, $0.45 ,175,88
+Produce,0128,Parsley, $0.19 ,169,245
+Produce,0129,Parsnip, $0.13 ,205,205
+Produce,0130,Passionfruit, $0.42 ,40,174
+Produce,0131,Patty pans, $0.92 ,200,151
+Produce,0132,Peach, $0.23 ,211,199
+Produce,0133,Pear, $0.28 ,22,151
+Produce,0134,Peas, $0.75 ,300,139
+Produce,0135,Persimmon, $0.98 ,203,66
+Produce,0136,Physalis, $0.55 ,195,237
+Produce,0137,Pineapple, $0.07 ,277,108
+Produce,0138,Pinto beans, $0.30 ,164,226
+Produce,0139,Plum, $0.60 ,85,18
+Produce,0140,Pomegranate, $0.65 ,141,153
+Produce,0141,Pomelo, $0.35 ,141,168
+Produce,0142,Potato, $0.66 ,99,35
+Produce,0143,Pumpkin, $0.88 ,263,78
+Produce,0144,Purple Mangosteen, $0.58 ,21,31
+Produce,0145,Quince, $0.08 ,288,198
+Produce,0146,Radicchio, $0.69 ,226,48
+Produce,0147,Radish, $0.71 ,243,211
+Produce,0148,Raisin, $0.04 ,85,149
+Produce,0149,Rambutan, $0.44 ,158,6
+Produce,0150,Raspberry, $0.04 ,87,47
+Produce,0151,Redcurrant, $0.79 ,23,117
+Produce,0152,Rhubarb, $0.43 ,214,16
+Produce,0153,Rosemary, $0.53 ,49,118
+Produce,0154,Runner beans, $0.01 ,190,156
+Produce,0155,Rutabaga, $0.78 ,252,207
+Produce,0156,Sage, $0.15 ,27,207
+Produce,0157,Salal berry, $0.39 ,191,145
+Produce,0158,Salmonberry, $0.82 ,60,219
+Produce,0159,Salsify, $0.14 ,285,124
+Produce,0160,Satsuma, $0.30 ,185,105
+Produce,0161,Scallion, $0.30 ,265,201
+Produce,0162,Shallot, $0.32 ,72,29
+Produce,0163,Skirret, $0.59 ,33,232
+Produce,0164,Soy beans, $0.53 ,290,78
+Produce,0165,Spaghetti squash, $0.06 ,14,234
+Produce,0166,Spinach, $0.79 ,82,142
+Produce,0167,Spinach, $0.28 ,96,70
+Produce,0168,Split peas, $0.72 ,141,43
+Produce,0169,Squash, $0.33 ,112,196
+Produce,0170,Star fruit, $0.27 ,46,206
+Produce,0171,Strawberry, $0.76 ,78,49
+Produce,0172,Sunchokes, $0.91 ,76,159
+Produce,0173,Sweet potato, $0.47 ,14,42
+Produce,0174,Tabasco pepper, $0.50 ,65,54
+Produce,0175,Tamarillo, $0.20 ,44,62
+Produce,0176,Tamarind, $0.40 ,215,145
+Produce,0177,Tangerine, $0.19 ,223,23
+Produce,0178,Taro, $0.34 ,92,89
+Produce,0179,Tat soi, $0.91 ,32,135
+Produce,0180,Thyme, $0.32 ,254,81
+Produce,0181,Tomato, $0.12 ,52,119
+Produce,0182,Topinambur, $0.07 ,161,6
+Produce,0183,Tubers, $0.06 ,115,120
+Produce,0184,Turnip, $0.36 ,140,15
+Produce,0185,Turnip, $0.21 ,125,111
+Produce,0186,Ugli fruit, $0.13 ,59,248
+Produce,0187,Wasabi, $0.75 ,7,199
+Produce,0188,Water chestnut, $0.55 ,266,235
+Produce,0189,Watercress, $0.66 ,168,7
+Produce,0190,Watermelon, $0.13 ,94,133
+Produce,0191,White radish, $0.21 ,130,96
+Produce,0192,Yam, $0.94 ,123,226
+Produce,0192,Zucchini, $0.85 ,107,173
+Base,1001,Water, $0.98 ,143,165
+Base,1002,Milk, $0.13 ,41,43
+Base,1003,Almond Milk, $0.35 ,290,64
+Base,1004,Soy Milk, $0.10 ,279,202
+Base,1005,Apple Juice, $0.23 ,120,96
+Base,1006,Orange Juice, $0.20 ,117,43
+Base,1007,Pineapple Juice, $0.45 ,280,74
+Base,1008,Coconut Milk, $0.10 ,184,174
+Base,1009,Yogurt, $0.10 ,213,80
+Additive,2001,Tea, $0.05 ,158,132
+Additive,2002,Coffee, $0.61 ,56,201
+Additive,2003,Peanut Butter, $0.47 ,236,249
+Additive,2004,Protein Powder, $0.70 ,98,197
+Additive,2005,Energy Powder, $0.23 ,111,7
+Additive,2006,Nutrient Powder, $0.31 ,81,163
+Additive,2007,Antioxident Powder, $0.08 ,258,197
+Additive,2008,Espresso, $0.96 ,62,112
+Additive,2009,Vodka, $0.70 ,262,46
+Additive,2010,Rum, $0.40 ,281,191
+Additive,2011,Gin, $0.14 ,170,17
+Additive,2012,Simple Syrup, $0.68 ,99,37
+Additive,2013,Bitters, $0.71 ,294,129
+Additive,2014,Grendine, $0.01 ,243,136
+Additive,2015,Whey Protein, $0.29 ,150,238
+Additive,2016,Caffiene Powder, $0.21 ,135,210
+Additive,2017,Wheat Grass, $0.08 ,214,169
+Additive,2018,Spices, $0.24 ,4,205
+Additive,2019,Flax Seed, $0.01 ,174,199
+Additive,2020,Chia Seeds, $0.33 ,195,162
+Additive,2021,Honey, $0.71 ,58,20
+Additive,2022,Fiber Powder, $0.32 ,121,240
+Additive,2023,Tonic Water, $0.65 ,28,216
+Additive,2024,Soda Water, $0.96 ,198,107
+Additive,2025,Kefir, $0.80 ,284,73
+Additive,2026,Almods, $0.24 ,115,202
+Additive,2027,Walnuts, $0.40 ,9,228
+Additive,2028,Peanuts, $0.46 ,110,59
+Additive,2029,Cashew, $0.99 ,11,4
+Additive,2030,Vanilla Extract, $0.21 ,281,26
