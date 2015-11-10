@@ -11,7 +11,7 @@ public class Additive {
 	private int weight;
 	private boolean organic = false;
 	private int calories;
-	
+
 	@Override
 	public boolean equals(Object obj) {
 		if (obj instanceof Additive) {
@@ -28,7 +28,8 @@ public class Additive {
 			return false;
 		}
 	}
-	
+
+	// TODO HashCode!!!!!
 
 	public String getName() {
 		return name;
