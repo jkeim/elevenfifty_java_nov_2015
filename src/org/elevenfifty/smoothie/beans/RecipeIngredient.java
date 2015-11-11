@@ -11,7 +11,6 @@ public class RecipeIngredient {
 	private int quantity;
 	private Unit unit;
 
-	// Constructor
 	public RecipeIngredient(Ingredient ingredient, int quantity, Unit unit) {
 		if (ingredient == null) {
 			throw new IllegalArgumentException("Cannot have a null ingredient");
@@ -22,7 +21,7 @@ public class RecipeIngredient {
 			throw new IllegalArgumentException("Cannot have a quantity of 0 or less");
 		}
 		
-	    if (unit == null) {
+		if (unit == null) {
 	    	throw new IllegalArgumentException("Cannot have a null unit");
 	    }
 		
@@ -32,7 +31,6 @@ public class RecipeIngredient {
 		this.unit = unit;
 	}
 
-	// Equals
 	@Override
 	public boolean equals(Object obj) {
 		if (obj == null) {
@@ -49,20 +47,16 @@ public class RecipeIngredient {
 		return new EqualsBuilder().appendSuper(super.equals(obj)).append(this.ingredient, rhs.ingredient).isEquals();
 	}
 
-	// hashCode
 	@Override
 	public int hashCode() {
-		// TODO HashCode Build
 		return this.ingredient.hashCode();
 	}
 
-	// toString
 	@Override
 	public String toString() {
 		return quantity + " " + unit + " of " + ingredient;
 	}
 
-	// getters
 	public Ingredient getIngredient() {
 		return ingredient;
 	}
