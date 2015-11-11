@@ -5,11 +5,10 @@ import org.apache.commons.lang3.builder.HashCodeBuilder;
 
 public class Produce extends AbstractIngredient implements Ingredient, Comparable<Produce> {
 
-	public Produce(int calories, String name, String type, double price, int weight) {
-
+	public Produce(int pluCode, String name, int calories, double price, int weight) {
+		this.pluCode = pluCode;
 		this.calories = calories;
 		this.name = name;
-		this.type = type;
 		this.price = price;
 		this.weight = weight;
 	}
@@ -20,13 +19,13 @@ public class Produce extends AbstractIngredient implements Ingredient, Comparabl
 
 	}
 
-	public static void main(String[] arg) {
-		Produce proObject = new Produce(1, "tomato", "vegetable", .11, 1);
-		Produce proObject2 = new Produce(1, "kale", "veggie", .10, 2);
-
-		System.out.println(proObject.toString());
-		System.out.println(proObject2.toString());
-	}
+	// public static void main(String[] arg) {
+	// Produce proObject = new Produce(1, "tomato", "vegetable", .11, 1);
+	// Produce proObject2 = new Produce(1, "kale", "veggie", .10, 2);
+	//
+	// System.out.println(proObject.toString());
+	// System.out.println(proObject2.toString());
+	// }
 
 	// Could be type enum with fruit and vegetable?
 	private String type;
