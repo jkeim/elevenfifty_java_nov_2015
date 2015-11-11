@@ -165,7 +165,6 @@ Produce,0163,Skirret, $0.59 ,33,232
 Produce,0164,Soy beans, $0.53 ,290,78
 Produce,0165,Spaghetti squash, $0.06 ,14,234
 Produce,0166,Spinach, $0.79 ,82,142
-Produce,0167,Spinach, $0.28 ,96,70
 Produce,0168,Split peas, $0.72 ,141,43
 Produce,0169,Squash, $0.33 ,112,196
 Produce,0170,Star fruit, $0.27 ,46,206
@@ -231,3 +230,4 @@ Additive,2027,Walnuts, $0.40 ,9,228
 Additive,2028,Peanuts, $0.46 ,110,59
 Additive,2029,Cashew, $0.99 ,11,4
 Additive,2030,Vanilla Extract, $0.21 ,281,26
+Additive,2031,Ice, $0.01 ,0,0
