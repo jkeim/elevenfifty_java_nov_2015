@@ -3,40 +3,35 @@ package org.elevenfifty.smoothie.beans;
 import org.apache.commons.lang3.builder.EqualsBuilder;
 import org.apache.commons.lang3.builder.HashCodeBuilder;
 
-public class Produce implements Comparable<Produce> {
+public class Produce extends AbstractIngredient implements Ingredient, Comparable<Produce> {
 
+
+	public Produce(int calories, String name, String type, double price, int weight) {
+        
+		this.calories = calories;
+		this.name = name;
+        this.type = type;
+        this.price = price;
+        this.weight = weight;
+}
+	@Override
+	public String toString(){
+		return super.toString()+"="+"Calories "+  calories + "; Price "+ price +"; Weight "+  weight +";";
+		
+	}
 	public static void main(String[] arg) {
-		Produce tomato = new Produce();
-		tomato.setCalories(2);
-		tomato.name = "tomato";
-		tomato.type = "Vegetable";
-		tomato.price = 0.11;
-		tomato.weight = 1;
-
-		Produce kale = new Produce();
-		kale.calories = 3;
-		kale.name = "kale";
-		kale.type = "Vegetable";
-		kale.price = .12;
-		kale.weight = 1;
-
-		Produce apple = new Produce();
-		apple.calories = 4;
-		apple.name = "apple";
-		apple.type = "Fruit";
-		apple.price = .10;
-		apple.weight = 1;
+		Produce proObject = new Produce( 1,"tomato", "vegetable", .11, 1);
+		
+	System.out.println(proObject.toString());
 
 		// System.out.println(apple.calories + "equals the calories count for
 		// apple");
 	}
 
-	private int calories;
-	private String name;
 	private String type;
-	private double price;
-	private int weight;
 
+
+	
 	@Override
 	public boolean equals(Object obj) {
 		if (obj == null) {
@@ -64,21 +59,8 @@ public class Produce implements Comparable<Produce> {
 		return this.name.compareToIgnoreCase(produce.getName());
 	}
 
-	public int getCalories() {
-		return calories;
-	}
 
-	public void setCalories(int calories) {
-		this.calories = calories;
-	}
 
-	public String getName() {
-		return name;
-	}
-
-	public void setName(String name) {
-		this.name = name;
-	}
 
 	public String getType() {
 		return type;
@@ -88,20 +70,6 @@ public class Produce implements Comparable<Produce> {
 		this.type = type;
 	}
 
-	public double getPrice() {
-		return price;
-	}
-
-	public void setPrice(double price) {
-		this.price = price;
-	}
-
-	public int getWeight() {
-		return weight;
-	}
-
-	public void setWeight(int weight) {
-		this.weight = weight;
-	}
+	
 
 }
