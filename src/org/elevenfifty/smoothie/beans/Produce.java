@@ -21,8 +21,10 @@ public class Produce extends AbstractIngredient implements Ingredient, Comparabl
 	}
 	public static void main(String[] arg) {
 		Produce proObject = new Produce( 1,"tomato", "vegetable", .11, 1);
+		Produce proObject2 = new Produce(1, "kale", "veggie", .10, 2);
 		
 	System.out.println(proObject.toString());
+	System.out.println(proObject2.toString());
 
 		// System.out.println(apple.calories + "equals the calories count for
 		// apple");
