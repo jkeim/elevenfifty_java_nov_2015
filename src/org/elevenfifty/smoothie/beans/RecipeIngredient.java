@@ -17,10 +17,16 @@ public class RecipeIngredient {
 			throw new IllegalArgumentException("Cannot have a null ingredient");
 		}
 
-		// TODO Quantity validation
-
-		// TODO Unit Null Check
-
+		
+		if (quantity <= 0) {
+			throw new IllegalArgumentException("Cannot have a quantity of 0 or less");
+		}
+		
+	    if (unit == null) {
+	    	throw new IllegalArgumentException("Cannot have a null unit");
+	    }
+		
+		
 		this.ingredient = ingredient;
 		this.quantity = quantity;
 		this.unit = unit;
