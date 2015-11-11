@@ -5,6 +5,10 @@ import org.apache.commons.lang3.builder.HashCodeBuilder;
 
 public class Produce extends AbstractIngredient implements Ingredient, Comparable<Produce> {
 
+	public Produce() {
+
+	}
+
 	public Produce(int pluCode, String name, int calories, double price, int weight) {
 		this.pluCode = pluCode;
 		this.calories = calories;
