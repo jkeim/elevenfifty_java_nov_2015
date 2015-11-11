@@ -4,6 +4,7 @@ public class Base extends AbstractIngredient implements Comparable<Base> {
 
 	@Override
 	public boolean equals(Object obj) {
+		// TODO Replace with code from Produce copied from equals builder docs
 		if (obj instanceof Base) {
 			Base base = (Base) obj;
 			try {
@@ -24,7 +25,7 @@ public class Base extends AbstractIngredient implements Comparable<Base> {
 		return this.name.toLowerCase().hashCode();
 	}
 
-	@Override	
+	@Override
 	public int compareTo(Base base) {
 		// return (int) this.price - (int) base.getPrice();
 		return this.name.compareToIgnoreCase(base.getName());

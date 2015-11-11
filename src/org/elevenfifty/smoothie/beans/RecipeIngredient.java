@@ -7,27 +7,26 @@ public class RecipeIngredient {
 		TEASPOON, TABLESPOON, CUP, HALF, WHOLE
 	};
 
-	// TODO Variable for Unit type
 	private Ingredient ingredient;
 	private int quantity;
 	private Unit unit;
 
-	// TODO Add a Constructor
-
-	// TODO Remove Setters 
-
-	// HashCode, Equals
-
-	// TODO toString
-
-// Constructor	
+	// Constructor
 	public RecipeIngredient(Ingredient ingredient, int quantity, Unit unit) {
+		if (ingredient == null) {
+			throw new IllegalArgumentException("Cannot have a null ingredient");
+		}
+
+		// TODO Quantity validation
+
+		// TODO Unit Null Check
+
 		this.ingredient = ingredient;
 		this.quantity = quantity;
 		this.unit = unit;
 	}
 
-// Equals	
+	// Equals
 	@Override
 	public boolean equals(Object obj) {
 		if (obj == null) {
@@ -43,21 +42,21 @@ public class RecipeIngredient {
 		RecipeIngredient rhs = (RecipeIngredient) obj;
 		return new EqualsBuilder().appendSuper(super.equals(obj)).append(this.ingredient, rhs.ingredient).isEquals();
 	}
-	
-// hashCode	
+
+	// hashCode
 	@Override
 	public int hashCode() {
+		// TODO HashCode Build
 		return this.ingredient.hashCode();
 	}
 
-// toString
+	// toString
 	@Override
 	public String toString() {
-		return "This recipe requires" + quantity + unit + "of" + ingredient;
-		
+		return quantity + " " + unit + " of " + ingredient;
 	}
 
-// getters
+	// getters
 	public Ingredient getIngredient() {
 		return ingredient;
 	}

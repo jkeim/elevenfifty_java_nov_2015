@@ -5,35 +5,32 @@ import org.apache.commons.lang3.builder.HashCodeBuilder;
 
 public class Produce extends AbstractIngredient implements Ingredient, Comparable<Produce> {
 
-
 	public Produce(int calories, String name, String type, double price, int weight) {
-        
+
 		this.calories = calories;
 		this.name = name;
-        this.type = type;
-        this.price = price;
-        this.weight = weight;
-}
+		this.type = type;
+		this.price = price;
+		this.weight = weight;
+	}
+
 	@Override
-	public String toString(){
-		return super.toString()+"="+"Calories "+  calories + "; Price "+ price +"; Weight "+  weight +";";
-		
+	public String toString() {
+		return super.toString() + " = " + "Calories " + calories + "; Price " + price + "; Weight " + weight + ";";
+
 	}
+
 	public static void main(String[] arg) {
-		Produce proObject = new Produce( 1,"tomato", "vegetable", .11, 1);
+		Produce proObject = new Produce(1, "tomato", "vegetable", .11, 1);
 		Produce proObject2 = new Produce(1, "kale", "veggie", .10, 2);
-		
-	System.out.println(proObject.toString());
-	System.out.println(proObject2.toString());
 
-		// System.out.println(apple.calories + "equals the calories count for
-		// apple");
+		System.out.println(proObject.toString());
+		System.out.println(proObject2.toString());
 	}
 
+	// Could be type enum with fruit and vegetable?
 	private String type;
 
-
-	
 	@Override
 	public boolean equals(Object obj) {
 		if (obj == null) {
@@ -61,9 +58,6 @@ public class Produce extends AbstractIngredient implements Ingredient, Comparabl
 		return this.name.compareToIgnoreCase(produce.getName());
 	}
 
-
-
-
 	public String getType() {
 		return type;
 	}
@@ -71,7 +65,5 @@ public class Produce extends AbstractIngredient implements Ingredient, Comparabl
 	public void setType(String type) {
 		this.type = type;
 	}
-
-	
 
 }
