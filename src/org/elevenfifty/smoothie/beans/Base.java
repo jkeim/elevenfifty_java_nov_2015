@@ -24,6 +24,7 @@ public class Base extends AbstractIngredient implements Comparable<Base> {
 		return this.name.toLowerCase().hashCode();
 	}
 
+	@Override	
 	public int compareTo(Base base) {
 		// return (int) this.price - (int) base.getPrice();
 		return this.name.compareToIgnoreCase(base.getName());
