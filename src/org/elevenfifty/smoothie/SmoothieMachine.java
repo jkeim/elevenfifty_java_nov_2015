@@ -12,6 +12,8 @@ import org.elevenfifty.smoothie.beans.Base;
 import org.elevenfifty.smoothie.beans.Ingredient;
 import org.elevenfifty.smoothie.beans.Produce;
 import org.elevenfifty.smoothie.beans.Recipe;
+import org.elevenfifty.smoothie.beans.RecipeIngredient;
+import org.elevenfifty.smoothie.beans.RecipeIngredient.Unit;
 
 public class SmoothieMachine {
 
@@ -97,18 +99,56 @@ public class SmoothieMachine {
 
 	private static List<Recipe> getRecipes(List<Ingredient> ingredients) {
 		// Open the File
-		// SmoothieMachine.class.getClassLoader().getResourceAsStream("recipe.csv")
+		List<Recipe> recipes = new ArrayList<Recipe>();
+		BufferedReader reader = null;
 
-		// Read the file
+		try {
+			// Used BufferedReader, See Files.java in javadoc
+			reader = new BufferedReader(new InputStreamReader(SmoothieMachine.class.getClassLoader().getResourceAsStream("recipe.csv")));
 
-		// Parse the data
+			// Read the file
+			String line = null;
+			Recipe r = null;
+			while ((line = reader.readLine()) != null) {
+				System.out.println(line);
 
-		// Translate parsed data to object with ingredients!
+				// Parse the data
+				String[] columns = line.split(",");
 
-		// Finally close the file
+				int numColumns = columns.length;
 
-		// Return Recipe
-		return null;
+				if (numColumns == 2) {
+					r = new Recipe(columns[1], Integer.valueOf(columns[0]));
+
+				} else if (numColumns == 3) {
+					int pluCode = Integer.parseInt(columns[2]);
+
+					// List, Set, or Map?
+
+					Ingredient ing = null;
+					for (Ingredient i : ingredients) {
+						if (i.getPluCode() == pluCode) {
+							ing = i;
+							break;
+						}
+					}
+
+					r.addRecipeIngredient(new RecipeIngredient(ing, Integer.valueOf(columns[0]), Unit.valueOf(columns[1])));
+
+				} else if (numColumns <= 1) {
+					recipes.add(r);
+
+				}
+			}
+
+		} catch (Exception e) {
+			e.printStackTrace();
+		} finally {
+			// Finally close the file
+			IOUtils.closeQuietly(reader);
+		}
+
+		// Return Ingredients
+		return recipes;
 	}
-
 }

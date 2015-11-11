@@ -1,18 +1,34 @@
 package org.elevenfifty.smoothie.beans;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Recipe {
 
-	private final List<RecipeIngredient> ingredients;
+	private List<RecipeIngredient> ingredients = new ArrayList<RecipeIngredient>();
+	private String name;
+	private int id;
 
-	public Recipe(List<RecipeIngredient> ingredients) {
+	public Recipe(String name, int id) {
 		super();
-		this.ingredients = ingredients;
+		this.name = name;
+		this.id = id;
 	}
 
 	public List<RecipeIngredient> getIngredients() {
 		return ingredients;
+	}
+
+	public void addRecipeIngredient(RecipeIngredient ri) {
+		this.ingredients.add(ri);
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public int getId() {
+		return id;
 	}
 
 	public double calculatePrice() {
