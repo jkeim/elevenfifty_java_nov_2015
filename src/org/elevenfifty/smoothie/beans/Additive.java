@@ -16,9 +16,14 @@ public class Additive extends AbstractIngredient {
 		return new HashCodeBuilder().append(this.name).toHashCode();
 	}
 
-	@Override
-	public String toString() {
-		return "Additive [toString()=" + super.toString() + "]";
+	//@Override
+	//public String toString() {
+	//	return "Additive [toString()=" + super.toString() + "]";
+	//}
+	
+	@Override 
+	public String toString() {    
+	   return super.toString() + "";
 	}
 
 	public Category getCategory() {
