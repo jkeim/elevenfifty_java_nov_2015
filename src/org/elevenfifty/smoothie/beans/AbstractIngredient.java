@@ -5,6 +5,7 @@ import org.apache.commons.lang3.builder.HashCodeBuilder;
 
 public abstract class AbstractIngredient implements Ingredient {
 
+	protected int pluCode;
 	protected String name;
 	protected int weight; // grams
 	protected int calories;
@@ -23,17 +24,25 @@ public abstract class AbstractIngredient implements Ingredient {
 		}
 
 		Produce rhs = (Produce) obj;
-		return new EqualsBuilder().appendSuper(super.equals(obj)).append(this.name, rhs.name).isEquals();
+		return new EqualsBuilder().appendSuper(super.equals(obj)).append(this.pluCode, rhs.pluCode).isEquals();
 	}
 
 	@Override
 	public int hashCode() {
-		return new HashCodeBuilder().append(this.name).toHashCode();
+		return new HashCodeBuilder().append(this.pluCode).toHashCode();
 	}
 
 	@Override
 	public String toString() {
-		return this.getClass().getSimpleName() + " : " + this.name;
+		return this.getClass().getSimpleName() + " : " + this.name + " (" + this.pluCode + ")";
+	}
+
+	public int getPluCode() {
+		return pluCode;
+	}
+
+	public void setPluCode(int pluCode) {
+		this.pluCode = pluCode;
 	}
 
 	public String getName() {
