@@ -15,6 +15,18 @@ public class Recipe {
 		this.id = id;
 	}
 
+	public String toString() {
+		StringBuilder builder = new StringBuilder();
+		builder.append("ID: ");
+		builder.append(id);
+		builder.append(", Name: ");
+		builder.append(this.name);
+		builder.append(", Ingredients: ");
+		builder.append(ingredients);
+
+		return builder.toString();
+	}
+
 	public List<RecipeIngredient> getIngredients() {
 		return ingredients;
 	}

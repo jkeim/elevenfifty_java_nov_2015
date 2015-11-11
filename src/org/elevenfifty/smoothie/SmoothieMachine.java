@@ -3,7 +3,9 @@ package org.elevenfifty.smoothie;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import org.apache.commons.io.IOUtils;
 import org.elevenfifty.smoothie.beans.AbstractIngredient;
@@ -19,10 +21,12 @@ public class SmoothieMachine {
 
 	public static void main(String[] args) {
 		// Load Ingredients
-		List<Ingredient> ingredients = getIngredients();
+		Map<Integer, Ingredient> ingredients = getIngredients();
 		System.out.println(ingredients);
 
 		// Bring in recipes
+		List<Recipe> recipes = getRecipes(ingredients);
+		System.out.println(recipes);
 
 		// Gather user input for smoothie construction
 
@@ -31,9 +35,9 @@ public class SmoothieMachine {
 		// Print out smoothie information to enjoy
 	}
 
-	private static List<Ingredient> getIngredients() {
+	private static Map<Integer, Ingredient> getIngredients() {
 		// Open the File
-		List<Ingredient> ingredients = new ArrayList<Ingredient>();
+		Map<Integer, Ingredient> ingredients = new HashMap<Integer, Ingredient>();
 		BufferedReader reader = null;
 
 		try {
@@ -82,7 +86,7 @@ public class SmoothieMachine {
 				ai.setName(columns[2]);
 				ai.setWeight(weight);
 				ai.setCalories(calories);
-				ingredients.add(ai);
+				ingredients.put(pluCode, ai);
 
 			}
 
@@ -97,7 +101,7 @@ public class SmoothieMachine {
 		return ingredients;
 	}
 
-	private static List<Recipe> getRecipes(List<Ingredient> ingredients) {
+	private static List<Recipe> getRecipes(Map<Integer, Ingredient> ingredients) {
 		// Open the File
 		List<Recipe> recipes = new ArrayList<Recipe>();
 		BufferedReader reader = null;
@@ -123,15 +127,7 @@ public class SmoothieMachine {
 				} else if (numColumns == 3) {
 					int pluCode = Integer.parseInt(columns[2]);
 
-					// List, Set, or Map?
-
-					Ingredient ing = null;
-					for (Ingredient i : ingredients) {
-						if (i.getPluCode() == pluCode) {
-							ing = i;
-							break;
-						}
-					}
+					Ingredient ing = ingredients.get(pluCode);
 
 					r.addRecipeIngredient(new RecipeIngredient(ing, Integer.valueOf(columns[0]), Unit.valueOf(columns[1])));
 
