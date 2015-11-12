@@ -43,6 +43,7 @@ public class Recipe {
 		return id;
 	}
 
+	// TODO REPEATED CODE!!!! FIX PLEASE!
 	public double calculatePrice() {
 		double total = 0d;
 

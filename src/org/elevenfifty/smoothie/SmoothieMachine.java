@@ -54,6 +54,7 @@ public class SmoothieMachine {
 		// Makes the smoothies from a recipe and parameters
 		Recipe r = recipes.get(recipeId);
 
+		// TODO Could this be done in a better way?
 		Smoothie smoothie = new Smoothie();
 		smoothie.setCalories((int) Math.ceil(size.getScale() * r.calculateCalories()));
 		smoothie.setWeight((int) Math.ceil(size.getScale() * r.calculateWeight()));
