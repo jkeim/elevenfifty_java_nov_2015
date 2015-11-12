@@ -1525,7 +1525,7 @@
         "weight": 107,
         "calories": 173,
         "price": 0.85,
-        "type": null
+        "type": "PRODUCE"
     },
     {
         "pluCode": 2001,
@@ -1602,170 +1602,119 @@
         "name": "Espresso",
         "weight": 62,
         "calories": 112,
-        "price": 0.96,
-        "category": null,
-        "organic": false,
-        "fdaApproved": false
+        "price": 0.96
     },
     {
         "pluCode": 2009,
         "name": "Vodka",
         "weight": 262,
         "calories": 46,
-        "price": 0.7,
-        "category": null,
-        "organic": false,
-        "fdaApproved": false
+        "price": 0.7
     },
     {
         "pluCode": 2010,
         "name": "Rum",
         "weight": 281,
         "calories": 191,
-        "price": 0.4,
-        "category": null,
-        "organic": false,
-        "fdaApproved": false
+        "price": 0.4
     },
     {
         "pluCode": 2011,
         "name": "Gin",
         "weight": 170,
         "calories": 17,
-        "price": 0.14,
-        "category": null,
-        "organic": false,
-        "fdaApproved": false
+        "price": 0.14
     },
     {
         "pluCode": 2012,
         "name": "Simple Syrup",
         "weight": 99,
         "calories": 37,
-        "price": 0.68,
-        "category": null,
-        "organic": false,
-        "fdaApproved": false
+        "price": 0.68
     },
     {
         "pluCode": 2013,
         "name": "Bitters",
         "weight": 294,
         "calories": 129,
-        "price": 0.71,
-        "category": null,
-        "organic": false,
-        "fdaApproved": false
+        "price": 0.71
     },
     {
         "pluCode": 2014,
         "name": "Grendine",
         "weight": 243,
         "calories": 136,
-        "price": 0.01,
-        "category": null,
-        "organic": false,
-        "fdaApproved": false
+        "price": 0.01
     },
     {
         "pluCode": 2015,
         "name": "Whey Protein",
         "weight": 150,
         "calories": 238,
-        "price": 0.29,
-        "category": null,
-        "organic": false,
-        "fdaApproved": false
+        "price": 0.29
     },
     {
         "pluCode": 2016,
         "name": "Caffiene Powder",
         "weight": 135,
         "calories": 210,
-        "price": 0.21,
-        "category": null,
-        "organic": false,
-        "fdaApproved": false
+        "price": 0.21
     },
     {
         "pluCode": 2017,
         "name": "Wheat Grass",
         "weight": 214,
         "calories": 169,
-        "price": 0.08,
-        "category": null,
-        "organic": false,
-        "fdaApproved": false
+        "price": 0.08
     },
     {
         "pluCode": 2018,
         "name": "Spices",
         "weight": 4,
         "calories": 205,
-        "price": 0.24,
-        "category": null,
-        "organic": false,
-        "fdaApproved": false
+        "price": 0.24
     },
     {
         "pluCode": 2019,
         "name": "Flax Seed",
         "weight": 174,
         "calories": 199,
-        "price": 0.01,
-        "category": null,
-        "organic": false,
-        "fdaApproved": false
+        "price": 0.01
     },
     {
         "pluCode": 2020,
         "name": "Chia Seeds",
         "weight": 195,
         "calories": 162,
-        "price": 0.33,
-        "category": null,
-        "organic": false,
-        "fdaApproved": false
+        "price": 0.33
     },
     {
         "pluCode": 2021,
         "name": "Honey",
         "weight": 58,
         "calories": 20,
-        "price": 0.71,
-        "category": null,
-        "organic": false,
-        "fdaApproved": false
+        "price": 0.71
     },
     {
         "pluCode": 2022,
         "name": "Fiber Powder",
         "weight": 121,
         "calories": 240,
-        "price": 0.32,
-        "category": null,
-        "organic": false,
-        "fdaApproved": false
+        "price": 0.32
     },
     {
         "pluCode": 2023,
         "name": "Tonic Water",
         "weight": 28,
         "calories": 216,
-        "price": 0.65,
-        "category": null,
-        "organic": false,
-        "fdaApproved": false
+        "price": 0.65
     },
     {
         "pluCode": 2024,
         "name": "Soda Water",
         "weight": 198,
         "calories": 107,
-        "price": 0.96,
-        "category": null,
-        "organic": false,
-        "fdaApproved": false
+        "price": 0.96
     },
     {
         "pluCode": 1001,
@@ -1779,10 +1728,7 @@
         "name": "Kefir",
         "weight": 284,
         "calories": 73,
-        "price": 0.8,
-        "category": null,
-        "organic": false,
-        "fdaApproved": false
+        "price": 0.8
     },
     {
         "pluCode": 1002,
@@ -1793,13 +1739,10 @@
     },
     {
         "pluCode": 2026,
-        "name": "Almods",
+        "name": "Almonds",
         "weight": 115,
         "calories": 202,
-        "price": 0.24,
-        "category": null,
-        "organic": false,
-        "fdaApproved": false
+        "price": 0.24
     },
     {
         "pluCode": 1003,
@@ -1813,10 +1756,7 @@
         "name": "Walnuts",
         "weight": 9,
         "calories": 228,
-        "price": 0.4,
-        "category": null,
-        "organic": false,
-        "fdaApproved": false
+        "price": 0.4
     },
     {
         "pluCode": 1004,
@@ -1830,10 +1770,7 @@
         "name": "Peanuts",
         "weight": 110,
         "calories": 59,
-        "price": 0.46,
-        "category": null,
-        "organic": false,
-        "fdaApproved": false
+        "price": 0.46
     },
     {
         "pluCode": 1005,
@@ -1847,10 +1784,7 @@
         "name": "Cashew",
         "weight": 11,
         "calories": 4,
-        "price": 0.99,
-        "category": null,
-        "organic": false,
-        "fdaApproved": false
+        "price": 0.99
     },
     {
         "pluCode": 1006,
@@ -1881,10 +1815,7 @@
         "name": "Ice",
         "weight": 0,
         "calories": 0,
-        "price": 0.01,
-        "category": null,
-        "organic": false,
-        "fdaApproved": false
+        "price": 0.01
     },
     {
         "pluCode": 1008,

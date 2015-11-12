@@ -1,6 +1,6 @@
 package org.elevenfifty.smoothie.beans;
 
-import org.apache.commons.lang3.builder.EqualsBuilder;
+import org.apache.commons.lang.builder.EqualsBuilder;
 
 public class RecipeIngredient {
 	public static enum Unit {
@@ -16,16 +16,14 @@ public class RecipeIngredient {
 			throw new IllegalArgumentException("Cannot have a null ingredient");
 		}
 
-		
 		if (quantity <= 0) {
 			throw new IllegalArgumentException("Cannot have a quantity of 0 or less");
 		}
-		
+
 		if (unit == null) {
-	    	throw new IllegalArgumentException("Cannot have a null unit");
-	    }
-		
-		
+			throw new IllegalArgumentException("Cannot have a null unit");
+		}
+
 		this.ingredient = ingredient;
 		this.quantity = quantity;
 		this.unit = unit;

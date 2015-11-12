@@ -1,21 +1,17 @@
 package org.elevenfifty.smoothie;
 
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
-import org.apache.commons.io.IOUtils;
-import org.elevenfifty.smoothie.beans.AbstractIngredient;
-import org.elevenfifty.smoothie.beans.Additive;
-import org.elevenfifty.smoothie.beans.Base;
+import org.elevenfifty.smoothie.beans.BaseIngredient;
 import org.elevenfifty.smoothie.beans.Ingredient;
-import org.elevenfifty.smoothie.beans.Produce;
 import org.elevenfifty.smoothie.beans.Recipe;
 import org.elevenfifty.smoothie.beans.RecipeIngredient;
 import org.elevenfifty.smoothie.beans.RecipeIngredient.Unit;
 import org.elevenfifty.smoothie.beans.Smoothie;
 
+import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.node.ArrayNode;
@@ -77,63 +73,21 @@ public class SmoothieMachine {
 	private static Map<Integer, Ingredient> getIngredients() {
 		// Open the File
 		Map<Integer, Ingredient> ingredients = new HashMap<Integer, Ingredient>();
-		BufferedReader reader = null;
 
 		try {
 			// Used BufferedReader, See Files.java in javadoc
-			reader = new BufferedReader(new InputStreamReader(SmoothieMachine.class.getClassLoader().getResourceAsStream("produce.csv")));
+			// reader = new BufferedReader(new
+			// InputStreamReader(SmoothieMachine.class.getClassLoader().getResourceAsStream("produce.csv")));
 
-			// Read the file
-			String line = null;
-			boolean firstLine = true;
-			while ((line = reader.readLine()) != null) {
-				if (firstLine) {
-					firstLine = false;
-					// Skip the header row
-					continue;
-				}
+			List<Ingredient> listIng = jsonMapper.readValue(SmoothieMachine.class.getClassLoader().getResourceAsStream("ingredients.json"), new TypeReference<List<BaseIngredient>>() {
+			});
 
-				// System.out.println(line);
-				// Parse the data
-				String[] columns = line.split(",");
-
-				int pluCode = Integer.parseInt(columns[1]);
-				int weight = Integer.parseInt(columns[4]);
-				int calories = Integer.parseInt(columns[5]);
-				double price = Double.parseDouble(columns[3].trim().substring(1));
-
-				// Translate parsed data to object
-				AbstractIngredient ai;
-
-				if ("Produce".equalsIgnoreCase(columns[0])) {
-					ai = new Produce();
-
-				} else if ("Base".equalsIgnoreCase(columns[0])) {
-					ai = new Base();
-
-				} else if ("Additive".equalsIgnoreCase(columns[0])) {
-					ai = new Additive();
-
-				} else {
-					// Ignore unknown types
-					System.out.println("Unknown Ingredient [" + columns[0] + "]");
-					continue;
-				}
-
-				ai.setPluCode(pluCode);
-				ai.setPrice(price);
-				ai.setName(columns[2]);
-				ai.setWeight(weight);
-				ai.setCalories(calories);
-				ingredients.put(pluCode, ai);
-
+			for (Ingredient i : listIng) {
+				ingredients.put(i.getPluCode(), i);
 			}
 
 		} catch (Exception e) {
 			e.printStackTrace();
-		} finally {
-			// Finally close the file
-			IOUtils.closeQuietly(reader);
 		}
 
 		// Return Ingredients

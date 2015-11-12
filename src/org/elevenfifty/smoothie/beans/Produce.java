@@ -1,7 +1,7 @@
 package org.elevenfifty.smoothie.beans;
 
-import org.apache.commons.lang3.builder.EqualsBuilder;
-import org.apache.commons.lang3.builder.HashCodeBuilder;
+import org.apache.commons.lang.builder.EqualsBuilder;
+import org.apache.commons.lang.builder.HashCodeBuilder;
 
 public class Produce extends AbstractIngredient implements Ingredient, Comparable<Produce> {
 
