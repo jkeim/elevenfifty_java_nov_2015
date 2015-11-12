@@ -2,11 +2,8 @@ package org.elevenfifty.smoothie;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
-import java.util.Scanner;
 
 import org.apache.commons.io.IOUtils;
 import org.elevenfifty.smoothie.beans.AbstractIngredient;
@@ -17,9 +14,10 @@ import org.elevenfifty.smoothie.beans.Produce;
 import org.elevenfifty.smoothie.beans.Recipe;
 import org.elevenfifty.smoothie.beans.RecipeIngredient;
 import org.elevenfifty.smoothie.beans.RecipeIngredient.Unit;
+import org.elevenfifty.smoothie.beans.Smoothie;
 
 public class SmoothieMachine {
-	private static enum Size {
+	public static enum Size {
 		SMALL(1), MEDIUM(1.5), LARGE(2);
 
 		double scale = 0;
@@ -36,7 +34,7 @@ public class SmoothieMachine {
 	public static void main(String[] args) {
 		// Gather user input for smoothie construction
 		// TODO VALIDATE USER INPUT PROPERLY
-		Size s = Size.valueOf(args[0]);
+		Size size = Size.valueOf(args[0]);
 		int recipeId = Integer.valueOf(args[1]);
 
 		// Load Ingredients
@@ -44,18 +42,28 @@ public class SmoothieMachine {
 		System.out.println(ingredients);
 
 		// Bring in recipes
-		// TODO Replace with Map<Integer, Recipe>
 		Map<Integer, Recipe> recipes = getRecipes(ingredients);
 		System.out.println(recipes);
 
-		// TODO does recipe id exist in map? If not return fancy english error
-		// message
-		
-		// TODO Makes the smoothies from a recipe and parameters
-		
+		// does recipe id exist in map?
+		if (!recipes.containsKey(recipeId)) {
+			// If not return fancy English error message
+			throw new IllegalArgumentException("Recipe " + recipeId + " not found!");
+		}
 
-		// TODO Print out smoothie information to enjoy
-		
+		// Makes the smoothies from a recipe and parameters
+		Recipe r = recipes.get(recipeId);
+
+		Smoothie smoothie = new Smoothie();
+		smoothie.setCalories((int) Math.ceil(size.getScale() * r.calculateCalories()));
+		smoothie.setWeight((int) Math.ceil(size.getScale() * r.calculateWeight()));
+		smoothie.setPrice(size.getScale() * r.calculatePrice());
+		smoothie.setSize(size);
+		smoothie.setName(r.getName());
+
+		// Print out smoothie information to enjoy
+
+		System.out.println(smoothie);
 	}
 
 	private static Map<Integer, Ingredient> getIngredients() {
@@ -141,14 +149,10 @@ public class SmoothieMachine {
 
 				// Parse the data
 				String[] columns = line.split(",");
-				int Id = 0;
 				int numColumns = columns.length;
-				
 
 				if (numColumns == 2) {
-					 Id = Integer.valueOf(columns[0]);
-					r = new Recipe(columns[1], Id);
-					
+					r = new Recipe(columns[1], Integer.valueOf(columns[0]));
 
 				} else if (numColumns == 3) {
 					int pluCode = Integer.parseInt(columns[2]);
@@ -158,10 +162,14 @@ public class SmoothieMachine {
 					r.addRecipeIngredient(new RecipeIngredient(ing, Integer.valueOf(columns[0]), Unit.valueOf(columns[1])));
 
 				} else if (numColumns <= 1) {
-					
-					recipes.put(Id, r);
+
+					recipes.put(r.getId(), r);
 
 				}
+			}
+
+			if (r != null && !recipes.containsKey(r.getId())) {
+				recipes.put(r.getId(), r);
 			}
 
 		} catch (Exception e) {

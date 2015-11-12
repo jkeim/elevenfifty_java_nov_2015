@@ -1,26 +1,17 @@
 package org.elevenfifty.smoothie.beans;
 
+import org.elevenfifty.smoothie.SmoothieMachine.Size;
+
 public class Smoothie {
 	private String name;
-	private int size;
+	private Size size;
 	private int calories;
-
-	@Override
-	public boolean equals(Object arg0) {
-		// TODO Auto-generated method stub
-		return super.equals(arg0);
-	}
-
-	@Override
-	public int hashCode() {
-		// TODO Auto-generated method stub
-		return super.hashCode();
-	}
+	private int weight;
+	private double price;
 
 	@Override
 	public String toString() {
-		// TODO Auto-generated method stub
-		return super.toString();
+		return size.name() + " " + this.name + " [" + this.calories + ", " + this.weight + "] for $" + this.price;
 	}
 
 	public String getName() {
@@ -31,12 +22,8 @@ public class Smoothie {
 		this.name = name;
 	}
 
-	public int getSize() {
+	public Size getSize() {
 		return size;
-	}
-
-	public void setSize(int size) {
-		this.size = size;
 	}
 
 	public int getCalories() {
@@ -47,4 +34,23 @@ public class Smoothie {
 		this.calories = calories;
 	}
 
+	public int getWeight() {
+		return weight;
+	}
+
+	public void setWeight(int weight) {
+		this.weight = weight;
+	}
+
+	public double getPrice() {
+		return price;
+	}
+
+	public void setPrice(double price) {
+		this.price = price;
+	}
+
+	public void setSize(Size size) {
+		this.size = size;
+	}
 }
