@@ -12,9 +12,12 @@ import org.elevenfifty.smoothie.beans.Base;
 import org.elevenfifty.smoothie.beans.Ingredient;
 import org.elevenfifty.smoothie.beans.Produce;
 import org.elevenfifty.smoothie.beans.Recipe;
-import org.elevenfifty.smoothie.beans.RecipeIngredient;
-import org.elevenfifty.smoothie.beans.RecipeIngredient.Unit;
 import org.elevenfifty.smoothie.beans.Smoothie;
+
+import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.node.ArrayNode;
+import com.fasterxml.jackson.databind.node.ObjectNode;
 
 public class SmoothieMachine {
 	public static enum Size {
@@ -30,6 +33,8 @@ public class SmoothieMachine {
 			return scale;
 		}
 	};
+
+	private static final ObjectMapper jsonMapper = new ObjectMapper();
 
 	public static void main(String[] args) {
 		// Gather user input for smoothie construction
@@ -66,6 +71,7 @@ public class SmoothieMachine {
 		System.out.println(smoothie);
 	}
 
+	// TODO Convert the ingredients data and parsing to JSON
 	private static Map<Integer, Ingredient> getIngredients() {
 		// Open the File
 		Map<Integer, Ingredient> ingredients = new HashMap<Integer, Ingredient>();
@@ -133,50 +139,23 @@ public class SmoothieMachine {
 	}
 
 	private static Map<Integer, Recipe> getRecipes(Map<Integer, Ingredient> ingredients) {
-		// Open the File
 		Map<Integer, Recipe> recipes = new HashMap<Integer, Recipe>();
-		BufferedReader reader = null;
 
 		try {
-			// Used BufferedReader, See Files.java in javadoc
-			reader = new BufferedReader(new InputStreamReader(SmoothieMachine.class.getClassLoader().getResourceAsStream("recipe.csv")));
+			JsonNode data = jsonMapper.readTree(SmoothieMachine.class.getClassLoader().getResourceAsStream("recipe.json"));
 
-			// Read the file
-			String line = null;
-			Recipe r = null;
-			while ((line = reader.readLine()) != null) {
-				System.out.println(line);
+			ArrayNode allRecipeData = (ArrayNode) data.get("recipes");
 
-				// Parse the data
-				String[] columns = line.split(",");
-				int numColumns = columns.length;
+			for (int i = 0; i < allRecipeData.size(); i++) {
+				ObjectNode recipeData = (ObjectNode) allRecipeData.get(i);
 
-				if (numColumns == 2) {
-					r = new Recipe(columns[1], Integer.valueOf(columns[0]));
+				// TODO Convert into Recipe Object!!
 
-				} else if (numColumns == 3) {
-					int pluCode = Integer.parseInt(columns[2]);
-
-					Ingredient ing = ingredients.get(pluCode);
-
-					r.addRecipeIngredient(new RecipeIngredient(ing, Integer.valueOf(columns[0]), Unit.valueOf(columns[1])));
-
-				} else if (numColumns <= 1) {
-
-					recipes.put(r.getId(), r);
-
-				}
-			}
-
-			if (r != null && !recipes.containsKey(r.getId())) {
-				recipes.put(r.getId(), r);
+				// TODO Add the recipe to the map!
 			}
 
 		} catch (Exception e) {
 			e.printStackTrace();
-		} finally {
-			// Finally close the file
-			IOUtils.closeQuietly(reader);
 		}
 
 		// Return Ingredients

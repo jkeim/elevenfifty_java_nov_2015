@@ -53,6 +53,22 @@
             ]
         },
         {
+            "id": 3,
+            "name": "Banana Blueberry",
+            "ingredients": [
+                {
+                    "qty": 2,
+                    "unit": "WHOLE",
+                    "pluCode": 11
+                },
+                {
+                    "qty": 2,
+                    "unit": "CUP",
+                    "pluCode": 22
+                }
+            ]
+        },
+        {
             "id": 30,
             "name": "BlueBarry-Banana-Vodka",
             "ingredients": [
@@ -96,8 +112,7 @@
                     "qty": 3,
                     "unit": "TABLESPOON",
                     "pluCode": 32
-                },
-                
+                }
             ]
         },
         {
@@ -124,7 +139,448 @@
                     "unit": "TABLESPOON",
                     "pluCode": 2029
                 }
-                
+            ]
+        },
+        {
+            "id": 40,
+            "name": "Pink-Mango",
+            "ingredients": [
+                {
+                    "qty": 3,
+                    "unit": "CUP",
+                    "pluCode": 1040
+                },
+                {
+                    "qty": 1,
+                    "unit": "WHOLE",
+                    "pluCode": 10
+                },
+                {
+                    "qty": 5,
+                    "unit": "HALF",
+                    "pluCode": 150
+                },
+                {
+                    "qty": 1,
+                    "unit": "TABLESPOON",
+                    "pluCode": 2050
+                }
+            ]
+        },
+        {
+            "id": 41,
+            "name": "Green-Lime",
+            "ingredients": [
+                {
+                    "qty": 41,
+                    "unit": "CUP",
+                    "pluCode": 1041
+                },
+                {
+                    "qty": 1,
+                    "unit": "WHOLE",
+                    "pluCode": 411
+                },
+                {
+                    "qty": 5,
+                    "unit": "WHOLE",
+                    "pluCode": 171
+                },
+                {
+                    "qty": 1,
+                    "unit": "TABLESPOON",
+                    "pluCode": 2005
+                }
+            ]
+        },
+        {
+            "id": 42,
+            "name": "Kale-SuperSmoothie",
+            "ingredients": [
+                {
+                    "qty": 41,
+                    "unit": "CUP",
+                    "pluCode": 1042
+                },
+                {
+                    "qty": 1,
+                    "unit": "CUP",
+                    "pluCode": 412
+                },
+                {
+                    "qty": 5,
+                    "unit": "WHOLE",
+                    "pluCode": 172
+                },
+                {
+                    "qty": 1,
+                    "unit": "TABLESPOON",
+                    "pluCode": 2006
+                }
+            ]
+        },
+        {
+            "id": 43,
+            "name": "Kale-Banana",
+            "ingredients": [
+                {
+                    "qty": 43,
+                    "unit": "CUP",
+                    "pluCode": 1043
+                },
+                {
+                    "qty": 3,
+                    "unit": "WHOLE",
+                    "pluCode": 413
+                },
+                {
+                    "qty": 5,
+                    "unit": "CUP",
+                    "pluCode": 173
+                },
+                {
+                    "qty": 1,
+                    "unit": "TABLESPOON",
+                    "pluCode": 2007
+                }
+            ]
+        },
+        {
+            "id": 44,
+            "name": "Kryptonite",
+            "ingredients": [
+                {
+                    "qty": 44,
+                    "unit": "CUP",
+                    "pluCode": 1044
+                },
+                {
+                    "qty": 1,
+                    "unit": "CUP",
+                    "pluCode": 414
+                },
+                {
+                    "qty": 5,
+                    "unit": "WHOLE",
+                    "pluCode": 174
+                },
+                {
+                    "qty": 1,
+                    "unit": "TABLESPOON",
+                    "pluCode": 2008
+                }
+            ]
+        },
+        {
+            "id": 45,
+            "name": "Black Magic",
+            "ingredients": [
+                {
+                    "qty": 46,
+                    "unit": "TABLESPOON",
+                    "pluCode": 1046
+                },
+                {
+                    "qty": 1,
+                    "unit": "CUP",
+                    "pluCode": 416
+                },
+                {
+                    "qty": 5,
+                    "unit": "WHOLE",
+                    "pluCode": 174
+                },
+                {
+                    "qty": 1,
+                    "unit": "TABLESPOON",
+                    "pluCode": 2010
+                }
+            ]
+        },
+        {
+            "id": 50,
+            "name": "Blueberry-Broccoli",
+            "ingredients": [
+                {
+                    "qty": 2,
+                    "unit": "CUP",
+                    "pluCode": 1001
+                },
+                {
+                    "qty": 1,
+                    "unit": "CUP",
+                    "pluCode": 22
+                },
+                {
+                    "qty": 2,
+                    "unit": "TABLESPOON",
+                    "pluCode": 27
+                },
+                {
+                    "qty": 2,
+                    "unit": "TABLESPOON",
+                    "pluCode": 2009
+                }
+            ]
+        },
+        {
+            "id": 51,
+            "name": "Alfalfa sprouts-Corn salad",
+            "ingredients": [
+                {
+                    "qty": 2,
+                    "unit": "CUP",
+                    "pluCode": 1006
+                },
+                {
+                    "qty": 1,
+                    "unit": "CUP",
+                    "pluCode": 53
+                },
+                {
+                    "qty": 2,
+                    "unit": "TABLESPOON",
+                    "pluCode": 2
+                },
+                {
+                    "qty": 2,
+                    "unit": "TABLESPOON",
+                    "pluCode": 2010
+                }
+            ]
+        },
+        {
+            "id": 52,
+            "name": "Borlotti bean-Acorn squash",
+            "ingredients": [
+                {
+                    "qty": 2,
+                    "unit": "CUP",
+                    "pluCode": 1007
+                },
+                {
+                    "qty": 1,
+                    "unit": "CUP",
+                    "pluCode": 24
+                },
+                {
+                    "qty": 2,
+                    "unit": "TABLESPOON",
+                    "pluCode": 1
+                },
+                {
+                    "qty": 2,
+                    "unit": "TABLESPOON",
+                    "pluCode": 2027
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "name": "Coconut Kiwi Passionfruit",
+            "ingredients": [
+                {
+                    "qty": 2,
+                    "unit": "CUP",
+                    "pluCode": 1008
+                },
+                {
+                    "qty": 3,
+                    "unit": "WHOLE",
+                    "pluCode": 95
+                },
+                {
+                    "qty": 3,
+                    "unit": "WHOLE",
+                    "pluCode": 130
+                },
+                {
+                    "qty": 1,
+                    "unit": "TABLESPOON",
+                    "pluCode": 2007
+                }
+            ]
+        },
+        {
+            "id": 21,
+            "name": "Apple Grape Chia",
+            "ingredients": [
+                {
+                    "qty": 2,
+                    "unit": "CUP",
+                    "pluCode": 1001
+                },
+                {
+                    "qty": 1,
+                    "unit": "WHOLE",
+                    "pluCode": 5
+                },
+                {
+                    "qty": 10,
+                    "unit": "WHOLE",
+                    "pluCode": 76
+                },
+                {
+                    "qty": 1,
+                    "unit": "TABLESPOON",
+                    "pluCode": 2020
+                }
+            ]
+        },
+        {
+            "id": 22,
+            "name": "Kale Wasabi Yogurt YUM",
+            "ingredients": [
+                {
+                    "qty": 2,
+                    "unit": "CUP",
+                    "pluCode": 1009
+                },
+                {
+                    "qty": 1,
+                    "unit": "WHOLE",
+                    "pluCode": 93
+                },
+                {
+                    "qty": 1,
+                    "unit": "TEASPOON",
+                    "pluCode": 187
+                },
+                {
+                    "qty": 1,
+                    "unit": "TABLESPOON",
+                    "pluCode": 2011
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Blackeyed-and-Bitter",
+            "ingredients": [
+                {
+                    "qty": 2,
+                    "unit": "CUP",
+                    "pluCode": 20
+                },
+                {
+                    "qty": 1,
+                    "unit": "CUP",
+                    "pluCode": 1004
+                },
+                {
+                    "qty": 1,
+                    "unit": "TABLESPOON",
+                    "pluCode": 2013
+                },
+                {
+                    "qty": 1,
+                    "unit": "TEASPOON",
+                    "pluCode": 2030
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "name": "Bokchoy-Tonic",
+            "ingredients": [
+                {
+                    "qty": 1,
+                    "unit": "CUP",
+                    "pluCode": 23
+                },
+                {
+                    "qty": 2,
+                    "unit": "CUP",
+                    "pluCode": 1008
+                },
+                {
+                    "qty": 3,
+                    "unit": "TABLESPOON",
+                    "pluCode": 2023
+                },
+                {
+                    "qty": 1,
+                    "unit": "TEASPOON",
+                    "pluCode": 2025
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "name": "Amaranthy-Milky",
+            "ingredients": [
+                {
+                    "qty": 2,
+                    "unit": "CUP",
+                    "pluCode": 3
+                },
+                {
+                    "qty": 2,
+                    "unit": "CUP",
+                    "pluCode": 1002
+                },
+                {
+                    "qty": 2,
+                    "unit": "TABLESPOON",
+                    "pluCode": 2008
+                },
+                {
+                    "qty": 1,
+                    "unit": "TEASPOON",
+                    "pluCode": 2016
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "name": "Avacado-Pineapple-Cleanse",
+            "ingredients": [
+                {
+                    "qty": 1,
+                    "unit": "CUP",
+                    "pluCode": 10
+                },
+                {
+                    "qty": 2,
+                    "unit": "CUP",
+                    "pluCode": 1007
+                },
+                {
+                    "qty": 8,
+                    "unit": "TABLESPOON",
+                    "pluCode": 2022
+                },
+                {
+                    "qty": 1,
+                    "unit": "TEASPOON",
+                    "pluCode": 2021
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "name": "Acorn-Yogurt-Gin",
+            "ingredients": [
+                {
+                    "qty": 1,
+                    "unit": "CUP",
+                    "pluCode": 1
+                },
+                {
+                    "qty": 2,
+                    "unit": "CUP",
+                    "pluCode": 1009
+                },
+                {
+                    "qty": 4,
+                    "unit": "TABLESPOON",
+                    "pluCode": 124
+                },
+                {
+                    "qty": 1,
+                    "unit": "TEASPOON",
+                    "pluCode": 2029
+                }
             ]
         }
     ]
