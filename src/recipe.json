@@ -148,7 +148,7 @@
                 {
                     "qty": 3,
                     "unit": "CUP",
-                    "pluCode": 1040
+                    "pluCode": 1004
                 },
                 {
                     "qty": 1,
@@ -174,7 +174,7 @@
                 {
                     "qty": 41,
                     "unit": "CUP",
-                    "pluCode": 1041
+                    "pluCode": 1001
                 },
                 {
                     "qty": 1,
@@ -200,7 +200,7 @@
                 {
                     "qty": 41,
                     "unit": "CUP",
-                    "pluCode": 1042
+                    "pluCode": 1002
                 },
                 {
                     "qty": 1,
@@ -226,7 +226,7 @@
                 {
                     "qty": 43,
                     "unit": "CUP",
-                    "pluCode": 1043
+                    "pluCode": 1003
                 },
                 {
                     "qty": 3,
@@ -252,7 +252,7 @@
                 {
                     "qty": 44,
                     "unit": "CUP",
-                    "pluCode": 1044
+                    "pluCode": 1004
                 },
                 {
                     "qty": 1,
@@ -278,7 +278,7 @@
                 {
                     "qty": 46,
                     "unit": "TABLESPOON",
-                    "pluCode": 1046
+                    "pluCode": 1006
                 },
                 {
                     "qty": 1,

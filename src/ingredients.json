@@ -1,0 +1,1903 @@
+[
+    {
+        "pluCode": 1,
+        "name": "Acorn squash",
+        "weight": 234,
+        "calories": 143,
+        "price": 0.33,
+        "type": null
+    },
+    {
+        "pluCode": 2,
+        "name": "Alfalfa sprouts",
+        "weight": 283,
+        "calories": 231,
+        "price": 0.75,
+        "type": null
+    },
+    {
+        "pluCode": 3,
+        "name": "Amaranth",
+        "weight": 228,
+        "calories": 133,
+        "price": 0.58,
+        "type": null
+    },
+    {
+        "pluCode": 4,
+        "name": "Anise",
+        "weight": 105,
+        "calories": 10,
+        "price": 0.93,
+        "type": null
+    },
+    {
+        "pluCode": 5,
+        "name": "Apple",
+        "weight": 159,
+        "calories": 13,
+        "price": 0.11,
+        "type": null
+    },
+    {
+        "pluCode": 6,
+        "name": "Apricot",
+        "weight": 266,
+        "calories": 60,
+        "price": 0.59,
+        "type": null
+    },
+    {
+        "pluCode": 7,
+        "name": "Artichoke",
+        "weight": 126,
+        "calories": 161,
+        "price": 0.01,
+        "type": null
+    },
+    {
+        "pluCode": 8,
+        "name": "Arugula",
+        "weight": 44,
+        "calories": 200,
+        "price": 0.12,
+        "type": null
+    },
+    {
+        "pluCode": 9,
+        "name": "Asparagus",
+        "weight": 274,
+        "calories": 232,
+        "price": 0.73,
+        "type": null
+    },
+    {
+        "pluCode": 10,
+        "name": "Avocado",
+        "weight": 110,
+        "calories": 32,
+        "price": 0.43,
+        "type": null
+    },
+    {
+        "pluCode": 11,
+        "name": "Banana",
+        "weight": 80,
+        "calories": 34,
+        "price": 0.21,
+        "type": null
+    },
+    {
+        "pluCode": 12,
+        "name": "Banana squash",
+        "weight": 107,
+        "calories": 189,
+        "price": 0.38,
+        "type": null
+    },
+    {
+        "pluCode": 13,
+        "name": "Basil",
+        "weight": 266,
+        "calories": 211,
+        "price": 0.64,
+        "type": null
+    },
+    {
+        "pluCode": 14,
+        "name": "Bean sprouts",
+        "weight": 266,
+        "calories": 164,
+        "price": 0.24,
+        "type": null
+    },
+    {
+        "pluCode": 15,
+        "name": "Beet",
+        "weight": 54,
+        "calories": 63,
+        "price": 0.74,
+        "type": null
+    },
+    {
+        "pluCode": 16,
+        "name": "Bilberry",
+        "weight": 269,
+        "calories": 114,
+        "price": 0.2,
+        "type": null
+    },
+    {
+        "pluCode": 17,
+        "name": "Black beans",
+        "weight": 273,
+        "calories": 128,
+        "price": 0.54,
+        "type": null
+    },
+    {
+        "pluCode": 18,
+        "name": "Blackberry",
+        "weight": 4,
+        "calories": 187,
+        "price": 0.84,
+        "type": null
+    },
+    {
+        "pluCode": 19,
+        "name": "Blackcurrant",
+        "weight": 282,
+        "calories": 29,
+        "price": 0.65,
+        "type": null
+    },
+    {
+        "pluCode": 20,
+        "name": "Black-eyed peas",
+        "weight": 73,
+        "calories": 119,
+        "price": 0.65,
+        "type": null
+    },
+    {
+        "pluCode": 21,
+        "name": "Blood Orange",
+        "weight": 226,
+        "calories": 137,
+        "price": 0.09,
+        "type": null
+    },
+    {
+        "pluCode": 22,
+        "name": "Blueberry",
+        "weight": 150,
+        "calories": 209,
+        "price": 0.6,
+        "type": null
+    },
+    {
+        "pluCode": 23,
+        "name": "Bok choy",
+        "weight": 187,
+        "calories": 87,
+        "price": 0.56,
+        "type": null
+    },
+    {
+        "pluCode": 24,
+        "name": "Borlotti bean",
+        "weight": 177,
+        "calories": 89,
+        "price": 0.33,
+        "type": null
+    },
+    {
+        "pluCode": 25,
+        "name": "Boysenberry",
+        "weight": 192,
+        "calories": 68,
+        "price": 0.49,
+        "type": null
+    },
+    {
+        "pluCode": 26,
+        "name": "Broad beans",
+        "weight": 169,
+        "calories": 32,
+        "price": 0.15,
+        "type": null
+    },
+    {
+        "pluCode": 27,
+        "name": "Broccoli",
+        "weight": 90,
+        "calories": 192,
+        "price": 0.9,
+        "type": null
+    },
+    {
+        "pluCode": 28,
+        "name": "Brussels sprouts",
+        "weight": 298,
+        "calories": 64,
+        "price": 0.62,
+        "type": null
+    },
+    {
+        "pluCode": 29,
+        "name": "Butternut squash",
+        "weight": 12,
+        "calories": 19,
+        "price": 0.45,
+        "type": null
+    },
+    {
+        "pluCode": 30,
+        "name": "Cabbage",
+        "weight": 210,
+        "calories": 152,
+        "price": 0.12,
+        "type": null
+    },
+    {
+        "pluCode": 31,
+        "name": "Calabrese",
+        "weight": 81,
+        "calories": 158,
+        "price": 0.28,
+        "type": null
+    },
+    {
+        "pluCode": 32,
+        "name": "Cannabis",
+        "weight": 280,
+        "calories": 55,
+        "price": 0.12,
+        "type": null
+    },
+    {
+        "pluCode": 33,
+        "name": "Cantaloupe",
+        "weight": 132,
+        "calories": 125,
+        "price": 0.75,
+        "type": null
+    },
+    {
+        "pluCode": 34,
+        "name": "Caraway",
+        "weight": 215,
+        "calories": 53,
+        "price": 0.22,
+        "type": null
+    },
+    {
+        "pluCode": 35,
+        "name": "Carrot",
+        "weight": 248,
+        "calories": 99,
+        "price": 0.92,
+        "type": null
+    },
+    {
+        "pluCode": 36,
+        "name": "Carrots",
+        "weight": 15,
+        "calories": 156,
+        "price": 0.51,
+        "type": null
+    },
+    {
+        "pluCode": 37,
+        "name": "Cauliflower",
+        "weight": 219,
+        "calories": 132,
+        "price": 0.57,
+        "type": null
+    },
+    {
+        "pluCode": 38,
+        "name": "Cayenne pepper",
+        "weight": 101,
+        "calories": 230,
+        "price": 0.52,
+        "type": null
+    },
+    {
+        "pluCode": 39,
+        "name": "Celeriac",
+        "weight": 260,
+        "calories": 102,
+        "price": 0.64,
+        "type": null
+    },
+    {
+        "pluCode": 40,
+        "name": "Celery",
+        "weight": 169,
+        "calories": 46,
+        "price": 0.57,
+        "type": null
+    },
+    {
+        "pluCode": 41,
+        "name": "Chamomile",
+        "weight": 248,
+        "calories": 111,
+        "price": 0.05,
+        "type": null
+    },
+    {
+        "pluCode": 42,
+        "name": "Chard",
+        "weight": 244,
+        "calories": 80,
+        "price": 0.13,
+        "type": null
+    },
+    {
+        "pluCode": 43,
+        "name": "Cherimoya",
+        "weight": 55,
+        "calories": 123,
+        "price": 0.43,
+        "type": null
+    },
+    {
+        "pluCode": 44,
+        "name": "Cherry",
+        "weight": 256,
+        "calories": 228,
+        "price": 0.9,
+        "type": null
+    },
+    {
+        "pluCode": 45,
+        "name": "Chickpeas",
+        "weight": 214,
+        "calories": 128,
+        "price": 0.11,
+        "type": null
+    },
+    {
+        "pluCode": 46,
+        "name": "Chives",
+        "weight": 73,
+        "calories": 178,
+        "price": 0.65,
+        "type": null
+    },
+    {
+        "pluCode": 47,
+        "name": "Cilantro",
+        "weight": 263,
+        "calories": 137,
+        "price": 0.24,
+        "type": null
+    },
+    {
+        "pluCode": 48,
+        "name": "Clementine",
+        "weight": 266,
+        "calories": 178,
+        "price": 0.76,
+        "type": null
+    },
+    {
+        "pluCode": 49,
+        "name": "Cloudberry",
+        "weight": 132,
+        "calories": 186,
+        "price": 0.41,
+        "type": null
+    },
+    {
+        "pluCode": 50,
+        "name": "Coconut",
+        "weight": 250,
+        "calories": 80,
+        "price": 0.74,
+        "type": null
+    },
+    {
+        "pluCode": 51,
+        "name": "Collard greens",
+        "weight": 282,
+        "calories": 93,
+        "price": 0.69,
+        "type": null
+    },
+    {
+        "pluCode": 52,
+        "name": "Corn",
+        "weight": 206,
+        "calories": 183,
+        "price": 0.85,
+        "type": null
+    },
+    {
+        "pluCode": 53,
+        "name": "Corn salad",
+        "weight": 245,
+        "calories": 216,
+        "price": 0.64,
+        "type": null
+    },
+    {
+        "pluCode": 54,
+        "name": "Cranberry",
+        "weight": 165,
+        "calories": 120,
+        "price": 0.87,
+        "type": null
+    },
+    {
+        "pluCode": 55,
+        "name": "Cucumber",
+        "weight": 89,
+        "calories": 208,
+        "price": 0.46,
+        "type": null
+    },
+    {
+        "pluCode": 56,
+        "name": "Currant",
+        "weight": 8,
+        "calories": 246,
+        "price": 0.85,
+        "type": null
+    },
+    {
+        "pluCode": 57,
+        "name": "Daikon",
+        "weight": 145,
+        "calories": 154,
+        "price": 0.92,
+        "type": null
+    },
+    {
+        "pluCode": 58,
+        "name": "Damson",
+        "weight": 207,
+        "calories": 143,
+        "price": 0.54,
+        "type": null
+    },
+    {
+        "pluCode": 59,
+        "name": "Date",
+        "weight": 20,
+        "calories": 61,
+        "price": 0.32,
+        "type": null
+    },
+    {
+        "pluCode": 60,
+        "name": "Dill",
+        "weight": 61,
+        "calories": 50,
+        "price": 0.76,
+        "type": null
+    },
+    {
+        "pluCode": 61,
+        "name": "Dragonfruit",
+        "weight": 168,
+        "calories": 92,
+        "price": 0.11,
+        "type": null
+    },
+    {
+        "pluCode": 62,
+        "name": "Durian",
+        "weight": 178,
+        "calories": 43,
+        "price": 0.4,
+        "type": null
+    },
+    {
+        "pluCode": 63,
+        "name": "Eggplant",
+        "weight": 100,
+        "calories": 246,
+        "price": 0.8,
+        "type": null
+    },
+    {
+        "pluCode": 64,
+        "name": "Elderberry",
+        "weight": 255,
+        "calories": 232,
+        "price": 0.16,
+        "type": null
+    },
+    {
+        "pluCode": 65,
+        "name": "Endive",
+        "weight": 91,
+        "calories": 190,
+        "price": 0.21,
+        "type": null
+    },
+    {
+        "pluCode": 66,
+        "name": "Feijoa",
+        "weight": 228,
+        "calories": 162,
+        "price": 0.8,
+        "type": null
+    },
+    {
+        "pluCode": 67,
+        "name": "Fennel",
+        "weight": 43,
+        "calories": 188,
+        "price": 0.21,
+        "type": null
+    },
+    {
+        "pluCode": 68,
+        "name": "Fiddleheads",
+        "weight": 249,
+        "calories": 112,
+        "price": 0.94,
+        "type": null
+    },
+    {
+        "pluCode": 69,
+        "name": "Fig",
+        "weight": 171,
+        "calories": 87,
+        "price": 0.44,
+        "type": null
+    },
+    {
+        "pluCode": 70,
+        "name": "Frisee",
+        "weight": 70,
+        "calories": 139,
+        "price": 0.02,
+        "type": null
+    },
+    {
+        "pluCode": 71,
+        "name": "Garlic",
+        "weight": 92,
+        "calories": 142,
+        "price": 0.72,
+        "type": null
+    },
+    {
+        "pluCode": 72,
+        "name": "Gem squash",
+        "weight": 185,
+        "calories": 67,
+        "price": 0.65,
+        "type": null
+    },
+    {
+        "pluCode": 73,
+        "name": "Ginger",
+        "weight": 216,
+        "calories": 71,
+        "price": 0.82,
+        "type": null
+    },
+    {
+        "pluCode": 74,
+        "name": "Goji berry",
+        "weight": 133,
+        "calories": 6,
+        "price": 0.39,
+        "type": null
+    },
+    {
+        "pluCode": 75,
+        "name": "Gooseberry",
+        "weight": 255,
+        "calories": 28,
+        "price": 0.11,
+        "type": null
+    },
+    {
+        "pluCode": 76,
+        "name": "Grape",
+        "weight": 54,
+        "calories": 158,
+        "price": 0.8,
+        "type": null
+    },
+    {
+        "pluCode": 77,
+        "name": "Grapefruit",
+        "weight": 161,
+        "calories": 75,
+        "price": 0.18,
+        "type": null
+    },
+    {
+        "pluCode": 78,
+        "name": "Green beans",
+        "weight": 268,
+        "calories": 201,
+        "price": 0.08,
+        "type": null
+    },
+    {
+        "pluCode": 79,
+        "name": "Green Pepper",
+        "weight": 173,
+        "calories": 62,
+        "price": 0.28,
+        "type": null
+    },
+    {
+        "pluCode": 80,
+        "name": "Guava",
+        "weight": 81,
+        "calories": 180,
+        "price": 0.38,
+        "type": null
+    },
+    {
+        "pluCode": 81,
+        "name": "Habanero",
+        "weight": 134,
+        "calories": 194,
+        "price": 0.29,
+        "type": null
+    },
+    {
+        "pluCode": 82,
+        "name": "Honeydew",
+        "weight": 233,
+        "calories": 68,
+        "price": 0.2,
+        "type": null
+    },
+    {
+        "pluCode": 83,
+        "name": "Horseradish",
+        "weight": 124,
+        "calories": 160,
+        "price": 0.08,
+        "type": null
+    },
+    {
+        "pluCode": 84,
+        "name": "Huckleberry",
+        "weight": 41,
+        "calories": 170,
+        "price": 0.11,
+        "type": null
+    },
+    {
+        "pluCode": 85,
+        "name": "Jabouticaba",
+        "weight": 163,
+        "calories": 235,
+        "price": 0.62,
+        "type": null
+    },
+    {
+        "pluCode": 86,
+        "name": "Jackfruit",
+        "weight": 184,
+        "calories": 176,
+        "price": 0.46,
+        "type": null
+    },
+    {
+        "pluCode": 87,
+        "name": "Jalapeno",
+        "weight": 84,
+        "calories": 18,
+        "price": 0.13,
+        "type": null
+    },
+    {
+        "pluCode": 88,
+        "name": "Jambul",
+        "weight": 259,
+        "calories": 105,
+        "price": 0.44,
+        "type": null
+    },
+    {
+        "pluCode": 89,
+        "name": "Jerusalem artichoke",
+        "weight": 185,
+        "calories": 164,
+        "price": 0.29,
+        "type": null
+    },
+    {
+        "pluCode": 90,
+        "name": "Jicama",
+        "weight": 272,
+        "calories": 163,
+        "price": 0.62,
+        "type": null
+    },
+    {
+        "pluCode": 91,
+        "name": "Jujube",
+        "weight": 114,
+        "calories": 176,
+        "price": 0.12,
+        "type": null
+    },
+    {
+        "pluCode": 92,
+        "name": "Juniper berry",
+        "weight": 34,
+        "calories": 148,
+        "price": 0.52,
+        "type": null
+    },
+    {
+        "pluCode": 93,
+        "name": "Kale",
+        "weight": 289,
+        "calories": 4,
+        "price": 0.29,
+        "type": null
+    },
+    {
+        "pluCode": 94,
+        "name": "Kidney beans",
+        "weight": 130,
+        "calories": 108,
+        "price": 0.84,
+        "type": null
+    },
+    {
+        "pluCode": 95,
+        "name": "Kiwi fruit",
+        "weight": 66,
+        "calories": 82,
+        "price": 0.58,
+        "type": null
+    },
+    {
+        "pluCode": 96,
+        "name": "Kohlrabi",
+        "weight": 273,
+        "calories": 49,
+        "price": 0.91,
+        "type": null
+    },
+    {
+        "pluCode": 97,
+        "name": "Kumquat",
+        "weight": 172,
+        "calories": 117,
+        "price": 0.64,
+        "type": null
+    },
+    {
+        "pluCode": 98,
+        "name": "Lavender",
+        "weight": 34,
+        "calories": 134,
+        "price": 0.91,
+        "type": null
+    },
+    {
+        "pluCode": 99,
+        "name": "Leek",
+        "weight": 145,
+        "calories": 122,
+        "price": 0.36,
+        "type": null
+    },
+    {
+        "pluCode": 100,
+        "name": "Lemon",
+        "weight": 24,
+        "calories": 90,
+        "price": 0.02,
+        "type": null
+    },
+    {
+        "pluCode": 101,
+        "name": "Lemon Grass",
+        "weight": 274,
+        "calories": 41,
+        "price": 0.19,
+        "type": null
+    },
+    {
+        "pluCode": 102,
+        "name": "Lentils",
+        "weight": 1,
+        "calories": 229,
+        "price": 0.83,
+        "type": null
+    },
+    {
+        "pluCode": 103,
+        "name": "Lettuce",
+        "weight": 169,
+        "calories": 138,
+        "price": 0.92,
+        "type": null
+    },
+    {
+        "pluCode": 104,
+        "name": "Lima beans",
+        "weight": 281,
+        "calories": 243,
+        "price": 0.49,
+        "type": null
+    },
+    {
+        "pluCode": 105,
+        "name": "Lime",
+        "weight": 204,
+        "calories": 217,
+        "price": 0.26,
+        "type": null
+    },
+    {
+        "pluCode": 106,
+        "name": "Loquat",
+        "weight": 94,
+        "calories": 160,
+        "price": 0.05,
+        "type": null
+    },
+    {
+        "pluCode": 107,
+        "name": "Lychee",
+        "weight": 118,
+        "calories": 23,
+        "price": 0.18,
+        "type": null
+    },
+    {
+        "pluCode": 108,
+        "name": "Mandarine",
+        "weight": 277,
+        "calories": 106,
+        "price": 0.9,
+        "type": null
+    },
+    {
+        "pluCode": 109,
+        "name": "Mango",
+        "weight": 290,
+        "calories": 94,
+        "price": 0.94,
+        "type": null
+    },
+    {
+        "pluCode": 110,
+        "name": "Marion berry",
+        "weight": 234,
+        "calories": 164,
+        "price": 0.09,
+        "type": null
+    },
+    {
+        "pluCode": 111,
+        "name": "Marjoram",
+        "weight": 289,
+        "calories": 124,
+        "price": 0.06,
+        "type": null
+    },
+    {
+        "pluCode": 112,
+        "name": "Melon",
+        "weight": 222,
+        "calories": 218,
+        "price": 0.22,
+        "type": null
+    },
+    {
+        "pluCode": 113,
+        "name": "Miracle fruit",
+        "weight": 123,
+        "calories": 47,
+        "price": 0.51,
+        "type": null
+    },
+    {
+        "pluCode": 114,
+        "name": "Mulberry",
+        "weight": 76,
+        "calories": 28,
+        "price": 0.12,
+        "type": null
+    },
+    {
+        "pluCode": 115,
+        "name": "Mung beans",
+        "weight": 95,
+        "calories": 114,
+        "price": 0.68,
+        "type": null
+    },
+    {
+        "pluCode": 116,
+        "name": "Mushrooms",
+        "weight": 50,
+        "calories": 104,
+        "price": 0.96,
+        "type": null
+    },
+    {
+        "pluCode": 117,
+        "name": "Mustard greens",
+        "weight": 140,
+        "calories": 44,
+        "price": 0.86,
+        "type": null
+    },
+    {
+        "pluCode": 118,
+        "name": "Navy beans",
+        "weight": 162,
+        "calories": 116,
+        "price": 0.45,
+        "type": null
+    },
+    {
+        "pluCode": 119,
+        "name": "Nectarine",
+        "weight": 178,
+        "calories": 241,
+        "price": 0.66,
+        "type": null
+    },
+    {
+        "pluCode": 120,
+        "name": "Nettles",
+        "weight": 166,
+        "calories": 21,
+        "price": 0.22,
+        "type": null
+    },
+    {
+        "pluCode": 121,
+        "name": "Okra",
+        "weight": 234,
+        "calories": 173,
+        "price": 0.39,
+        "type": null
+    },
+    {
+        "pluCode": 122,
+        "name": "Olive",
+        "weight": 190,
+        "calories": 149,
+        "price": 0.87,
+        "type": null
+    },
+    {
+        "pluCode": 123,
+        "name": "Onion",
+        "weight": 294,
+        "calories": 25,
+        "price": 0.46,
+        "type": null
+    },
+    {
+        "pluCode": 124,
+        "name": "Orange",
+        "weight": 172,
+        "calories": 110,
+        "price": 0.46,
+        "type": null
+    },
+    {
+        "pluCode": 125,
+        "name": "Oregano",
+        "weight": 47,
+        "calories": 178,
+        "price": 0.94,
+        "type": null
+    },
+    {
+        "pluCode": 126,
+        "name": "Papaya",
+        "weight": 296,
+        "calories": 233,
+        "price": 0.79,
+        "type": null
+    },
+    {
+        "pluCode": 127,
+        "name": "Paprika",
+        "weight": 175,
+        "calories": 88,
+        "price": 0.45,
+        "type": null
+    },
+    {
+        "pluCode": 128,
+        "name": "Parsley",
+        "weight": 169,
+        "calories": 245,
+        "price": 0.19,
+        "type": null
+    },
+    {
+        "pluCode": 129,
+        "name": "Parsnip",
+        "weight": 205,
+        "calories": 205,
+        "price": 0.13,
+        "type": null
+    },
+    {
+        "pluCode": 130,
+        "name": "Passionfruit",
+        "weight": 40,
+        "calories": 174,
+        "price": 0.42,
+        "type": null
+    },
+    {
+        "pluCode": 131,
+        "name": "Patty pans",
+        "weight": 200,
+        "calories": 151,
+        "price": 0.92,
+        "type": null
+    },
+    {
+        "pluCode": 132,
+        "name": "Peach",
+        "weight": 211,
+        "calories": 199,
+        "price": 0.23,
+        "type": null
+    },
+    {
+        "pluCode": 133,
+        "name": "Pear",
+        "weight": 22,
+        "calories": 151,
+        "price": 0.28,
+        "type": null
+    },
+    {
+        "pluCode": 134,
+        "name": "Peas",
+        "weight": 300,
+        "calories": 139,
+        "price": 0.75,
+        "type": null
+    },
+    {
+        "pluCode": 135,
+        "name": "Persimmon",
+        "weight": 203,
+        "calories": 66,
+        "price": 0.98,
+        "type": null
+    },
+    {
+        "pluCode": 136,
+        "name": "Physalis",
+        "weight": 195,
+        "calories": 237,
+        "price": 0.55,
+        "type": null
+    },
+    {
+        "pluCode": 137,
+        "name": "Pineapple",
+        "weight": 277,
+        "calories": 108,
+        "price": 0.07,
+        "type": null
+    },
+    {
+        "pluCode": 138,
+        "name": "Pinto beans",
+        "weight": 164,
+        "calories": 226,
+        "price": 0.3,
+        "type": null
+    },
+    {
+        "pluCode": 139,
+        "name": "Plum",
+        "weight": 85,
+        "calories": 18,
+        "price": 0.6,
+        "type": null
+    },
+    {
+        "pluCode": 140,
+        "name": "Pomegranate",
+        "weight": 141,
+        "calories": 153,
+        "price": 0.65,
+        "type": null
+    },
+    {
+        "pluCode": 141,
+        "name": "Pomelo",
+        "weight": 141,
+        "calories": 168,
+        "price": 0.35,
+        "type": null
+    },
+    {
+        "pluCode": 142,
+        "name": "Potato",
+        "weight": 99,
+        "calories": 35,
+        "price": 0.66,
+        "type": null
+    },
+    {
+        "pluCode": 143,
+        "name": "Pumpkin",
+        "weight": 263,
+        "calories": 78,
+        "price": 0.88,
+        "type": null
+    },
+    {
+        "pluCode": 144,
+        "name": "Purple Mangosteen",
+        "weight": 21,
+        "calories": 31,
+        "price": 0.58,
+        "type": null
+    },
+    {
+        "pluCode": 145,
+        "name": "Quince",
+        "weight": 288,
+        "calories": 198,
+        "price": 0.08,
+        "type": null
+    },
+    {
+        "pluCode": 146,
+        "name": "Radicchio",
+        "weight": 226,
+        "calories": 48,
+        "price": 0.69,
+        "type": null
+    },
+    {
+        "pluCode": 147,
+        "name": "Radish",
+        "weight": 243,
+        "calories": 211,
+        "price": 0.71,
+        "type": null
+    },
+    {
+        "pluCode": 148,
+        "name": "Raisin",
+        "weight": 85,
+        "calories": 149,
+        "price": 0.04,
+        "type": null
+    },
+    {
+        "pluCode": 149,
+        "name": "Rambutan",
+        "weight": 158,
+        "calories": 6,
+        "price": 0.44,
+        "type": null
+    },
+    {
+        "pluCode": 150,
+        "name": "Raspberry",
+        "weight": 87,
+        "calories": 47,
+        "price": 0.04,
+        "type": null
+    },
+    {
+        "pluCode": 151,
+        "name": "Redcurrant",
+        "weight": 23,
+        "calories": 117,
+        "price": 0.79,
+        "type": null
+    },
+    {
+        "pluCode": 152,
+        "name": "Rhubarb",
+        "weight": 214,
+        "calories": 16,
+        "price": 0.43,
+        "type": null
+    },
+    {
+        "pluCode": 153,
+        "name": "Rosemary",
+        "weight": 49,
+        "calories": 118,
+        "price": 0.53,
+        "type": null
+    },
+    {
+        "pluCode": 154,
+        "name": "Runner beans",
+        "weight": 190,
+        "calories": 156,
+        "price": 0.01,
+        "type": null
+    },
+    {
+        "pluCode": 155,
+        "name": "Rutabaga",
+        "weight": 252,
+        "calories": 207,
+        "price": 0.78,
+        "type": null
+    },
+    {
+        "pluCode": 156,
+        "name": "Sage",
+        "weight": 27,
+        "calories": 207,
+        "price": 0.15,
+        "type": null
+    },
+    {
+        "pluCode": 157,
+        "name": "Salal berry",
+        "weight": 191,
+        "calories": 145,
+        "price": 0.39,
+        "type": null
+    },
+    {
+        "pluCode": 158,
+        "name": "Salmonberry",
+        "weight": 60,
+        "calories": 219,
+        "price": 0.82,
+        "type": null
+    },
+    {
+        "pluCode": 159,
+        "name": "Salsify",
+        "weight": 285,
+        "calories": 124,
+        "price": 0.14,
+        "type": null
+    },
+    {
+        "pluCode": 160,
+        "name": "Satsuma",
+        "weight": 185,
+        "calories": 105,
+        "price": 0.3,
+        "type": null
+    },
+    {
+        "pluCode": 161,
+        "name": "Scallion",
+        "weight": 265,
+        "calories": 201,
+        "price": 0.3,
+        "type": null
+    },
+    {
+        "pluCode": 162,
+        "name": "Shallot",
+        "weight": 72,
+        "calories": 29,
+        "price": 0.32,
+        "type": null
+    },
+    {
+        "pluCode": 163,
+        "name": "Skirret",
+        "weight": 33,
+        "calories": 232,
+        "price": 0.59,
+        "type": null
+    },
+    {
+        "pluCode": 164,
+        "name": "Soy beans",
+        "weight": 290,
+        "calories": 78,
+        "price": 0.53,
+        "type": null
+    },
+    {
+        "pluCode": 165,
+        "name": "Spaghetti squash",
+        "weight": 14,
+        "calories": 234,
+        "price": 0.06,
+        "type": null
+    },
+    {
+        "pluCode": 166,
+        "name": "Spinach",
+        "weight": 82,
+        "calories": 142,
+        "price": 0.79,
+        "type": null
+    },
+    {
+        "pluCode": 168,
+        "name": "Split peas",
+        "weight": 141,
+        "calories": 43,
+        "price": 0.72,
+        "type": null
+    },
+    {
+        "pluCode": 169,
+        "name": "Squash",
+        "weight": 112,
+        "calories": 196,
+        "price": 0.33,
+        "type": null
+    },
+    {
+        "pluCode": 170,
+        "name": "Star fruit",
+        "weight": 46,
+        "calories": 206,
+        "price": 0.27,
+        "type": null
+    },
+    {
+        "pluCode": 171,
+        "name": "Strawberry",
+        "weight": 78,
+        "calories": 49,
+        "price": 0.76,
+        "type": null
+    },
+    {
+        "pluCode": 172,
+        "name": "Sunchokes",
+        "weight": 76,
+        "calories": 159,
+        "price": 0.91,
+        "type": null
+    },
+    {
+        "pluCode": 173,
+        "name": "Sweet potato",
+        "weight": 14,
+        "calories": 42,
+        "price": 0.47,
+        "type": null
+    },
+    {
+        "pluCode": 174,
+        "name": "Tabasco pepper",
+        "weight": 65,
+        "calories": 54,
+        "price": 0.5,
+        "type": null
+    },
+    {
+        "pluCode": 175,
+        "name": "Tamarillo",
+        "weight": 44,
+        "calories": 62,
+        "price": 0.2,
+        "type": null
+    },
+    {
+        "pluCode": 176,
+        "name": "Tamarind",
+        "weight": 215,
+        "calories": 145,
+        "price": 0.4,
+        "type": null
+    },
+    {
+        "pluCode": 177,
+        "name": "Tangerine",
+        "weight": 223,
+        "calories": 23,
+        "price": 0.19,
+        "type": null
+    },
+    {
+        "pluCode": 178,
+        "name": "Taro",
+        "weight": 92,
+        "calories": 89,
+        "price": 0.34,
+        "type": null
+    },
+    {
+        "pluCode": 179,
+        "name": "Tat soi",
+        "weight": 32,
+        "calories": 135,
+        "price": 0.91,
+        "type": null
+    },
+    {
+        "pluCode": 180,
+        "name": "Thyme",
+        "weight": 254,
+        "calories": 81,
+        "price": 0.32,
+        "type": null
+    },
+    {
+        "pluCode": 181,
+        "name": "Tomato",
+        "weight": 52,
+        "calories": 119,
+        "price": 0.12,
+        "type": null
+    },
+    {
+        "pluCode": 182,
+        "name": "Topinambur",
+        "weight": 161,
+        "calories": 6,
+        "price": 0.07,
+        "type": null
+    },
+    {
+        "pluCode": 183,
+        "name": "Tubers",
+        "weight": 115,
+        "calories": 120,
+        "price": 0.06,
+        "type": null
+    },
+    {
+        "pluCode": 184,
+        "name": "Turnip",
+        "weight": 140,
+        "calories": 15,
+        "price": 0.36,
+        "type": null
+    },
+    {
+        "pluCode": 185,
+        "name": "Turnip",
+        "weight": 125,
+        "calories": 111,
+        "price": 0.21,
+        "type": null
+    },
+    {
+        "pluCode": 186,
+        "name": "Ugli fruit",
+        "weight": 59,
+        "calories": 248,
+        "price": 0.13,
+        "type": null
+    },
+    {
+        "pluCode": 187,
+        "name": "Wasabi",
+        "weight": 7,
+        "calories": 199,
+        "price": 0.75,
+        "type": null
+    },
+    {
+        "pluCode": 188,
+        "name": "Water chestnut",
+        "weight": 266,
+        "calories": 235,
+        "price": 0.55,
+        "type": null
+    },
+    {
+        "pluCode": 189,
+        "name": "Watercress",
+        "weight": 168,
+        "calories": 7,
+        "price": 0.66,
+        "type": null
+    },
+    {
+        "pluCode": 190,
+        "name": "Watermelon",
+        "weight": 94,
+        "calories": 133,
+        "price": 0.13,
+        "type": null
+    },
+    {
+        "pluCode": 191,
+        "name": "White radish",
+        "weight": 130,
+        "calories": 96,
+        "price": 0.21,
+        "type": null
+    },
+    {
+        "pluCode": 192,
+        "name": "Zucchini",
+        "weight": 107,
+        "calories": 173,
+        "price": 0.85,
+        "type": null
+    },
+    {
+        "pluCode": 2001,
+        "name": "Tea",
+        "weight": 158,
+        "calories": 132,
+        "price": 0.05,
+        "category": null,
+        "organic": false,
+        "fdaApproved": false
+    },
+    {
+        "pluCode": 2002,
+        "name": "Coffee",
+        "weight": 56,
+        "calories": 201,
+        "price": 0.61,
+        "category": null,
+        "organic": false,
+        "fdaApproved": false
+    },
+    {
+        "pluCode": 2003,
+        "name": "Peanut Butter",
+        "weight": 236,
+        "calories": 249,
+        "price": 0.47,
+        "category": null,
+        "organic": false,
+        "fdaApproved": false
+    },
+    {
+        "pluCode": 2004,
+        "name": "Protein Powder",
+        "weight": 98,
+        "calories": 197,
+        "price": 0.7,
+        "category": null,
+        "organic": false,
+        "fdaApproved": false
+    },
+    {
+        "pluCode": 2005,
+        "name": "Energy Powder",
+        "weight": 111,
+        "calories": 7,
+        "price": 0.23,
+        "category": null,
+        "organic": false,
+        "fdaApproved": false
+    },
+    {
+        "pluCode": 2006,
+        "name": "Nutrient Powder",
+        "weight": 81,
+        "calories": 163,
+        "price": 0.31,
+        "category": null,
+        "organic": false,
+        "fdaApproved": false
+    },
+    {
+        "pluCode": 2007,
+        "name": "Antioxident Powder",
+        "weight": 258,
+        "calories": 197,
+        "price": 0.08,
+        "category": null,
+        "organic": false,
+        "fdaApproved": false
+    },
+    {
+        "pluCode": 2008,
+        "name": "Espresso",
+        "weight": 62,
+        "calories": 112,
+        "price": 0.96,
+        "category": null,
+        "organic": false,
+        "fdaApproved": false
+    },
+    {
+        "pluCode": 2009,
+        "name": "Vodka",
+        "weight": 262,
+        "calories": 46,
+        "price": 0.7,
+        "category": null,
+        "organic": false,
+        "fdaApproved": false
+    },
+    {
+        "pluCode": 2010,
+        "name": "Rum",
+        "weight": 281,
+        "calories": 191,
+        "price": 0.4,
+        "category": null,
+        "organic": false,
+        "fdaApproved": false
+    },
+    {
+        "pluCode": 2011,
+        "name": "Gin",
+        "weight": 170,
+        "calories": 17,
+        "price": 0.14,
+        "category": null,
+        "organic": false,
+        "fdaApproved": false
+    },
+    {
+        "pluCode": 2012,
+        "name": "Simple Syrup",
+        "weight": 99,
+        "calories": 37,
+        "price": 0.68,
+        "category": null,
+        "organic": false,
+        "fdaApproved": false
+    },
+    {
+        "pluCode": 2013,
+        "name": "Bitters",
+        "weight": 294,
+        "calories": 129,
+        "price": 0.71,
+        "category": null,
+        "organic": false,
+        "fdaApproved": false
+    },
+    {
+        "pluCode": 2014,
+        "name": "Grendine",
+        "weight": 243,
+        "calories": 136,
+        "price": 0.01,
+        "category": null,
+        "organic": false,
+        "fdaApproved": false
+    },
+    {
+        "pluCode": 2015,
+        "name": "Whey Protein",
+        "weight": 150,
+        "calories": 238,
+        "price": 0.29,
+        "category": null,
+        "organic": false,
+        "fdaApproved": false
+    },
+    {
+        "pluCode": 2016,
+        "name": "Caffiene Powder",
+        "weight": 135,
+        "calories": 210,
+        "price": 0.21,
+        "category": null,
+        "organic": false,
+        "fdaApproved": false
+    },
+    {
+        "pluCode": 2017,
+        "name": "Wheat Grass",
+        "weight": 214,
+        "calories": 169,
+        "price": 0.08,
+        "category": null,
+        "organic": false,
+        "fdaApproved": false
+    },
+    {
+        "pluCode": 2018,
+        "name": "Spices",
+        "weight": 4,
+        "calories": 205,
+        "price": 0.24,
+        "category": null,
+        "organic": false,
+        "fdaApproved": false
+    },
+    {
+        "pluCode": 2019,
+        "name": "Flax Seed",
+        "weight": 174,
+        "calories": 199,
+        "price": 0.01,
+        "category": null,
+        "organic": false,
+        "fdaApproved": false
+    },
+    {
+        "pluCode": 2020,
+        "name": "Chia Seeds",
+        "weight": 195,
+        "calories": 162,
+        "price": 0.33,
+        "category": null,
+        "organic": false,
+        "fdaApproved": false
+    },
+    {
+        "pluCode": 2021,
+        "name": "Honey",
+        "weight": 58,
+        "calories": 20,
+        "price": 0.71,
+        "category": null,
+        "organic": false,
+        "fdaApproved": false
+    },
+    {
+        "pluCode": 2022,
+        "name": "Fiber Powder",
+        "weight": 121,
+        "calories": 240,
+        "price": 0.32,
+        "category": null,
+        "organic": false,
+        "fdaApproved": false
+    },
+    {
+        "pluCode": 2023,
+        "name": "Tonic Water",
+        "weight": 28,
+        "calories": 216,
+        "price": 0.65,
+        "category": null,
+        "organic": false,
+        "fdaApproved": false
+    },
+    {
+        "pluCode": 2024,
+        "name": "Soda Water",
+        "weight": 198,
+        "calories": 107,
+        "price": 0.96,
+        "category": null,
+        "organic": false,
+        "fdaApproved": false
+    },
+    {
+        "pluCode": 1001,
+        "name": "Water",
+        "weight": 143,
+        "calories": 165,
+        "price": 0.98
+    },
+    {
+        "pluCode": 2025,
+        "name": "Kefir",
+        "weight": 284,
+        "calories": 73,
+        "price": 0.8,
+        "category": null,
+        "organic": false,
+        "fdaApproved": false
+    },
+    {
+        "pluCode": 1002,
+        "name": "Milk",
+        "weight": 41,
+        "calories": 43,
+        "price": 0.13
+    },
+    {
+        "pluCode": 2026,
+        "name": "Almods",
+        "weight": 115,
+        "calories": 202,
+        "price": 0.24,
+        "category": null,
+        "organic": false,
+        "fdaApproved": false
+    },
+    {
+        "pluCode": 1003,
+        "name": "Almond Milk",
+        "weight": 290,
+        "calories": 64,
+        "price": 0.35
+    },
+    {
+        "pluCode": 2027,
+        "name": "Walnuts",
+        "weight": 9,
+        "calories": 228,
+        "price": 0.4,
+        "category": null,
+        "organic": false,
+        "fdaApproved": false
+    },
+    {
+        "pluCode": 1004,
+        "name": "Soy Milk",
+        "weight": 279,
+        "calories": 202,
+        "price": 0.1
+    },
+    {
+        "pluCode": 2028,
+        "name": "Peanuts",
+        "weight": 110,
+        "calories": 59,
+        "price": 0.46,
+        "category": null,
+        "organic": false,
+        "fdaApproved": false
+    },
+    {
+        "pluCode": 1005,
+        "name": "Apple Juice",
+        "weight": 120,
+        "calories": 96,
+        "price": 0.23
+    },
+    {
+        "pluCode": 2029,
+        "name": "Cashew",
+        "weight": 11,
+        "calories": 4,
+        "price": 0.99,
+        "category": null,
+        "organic": false,
+        "fdaApproved": false
+    },
+    {
+        "pluCode": 1006,
+        "name": "Orange Juice",
+        "weight": 117,
+        "calories": 43,
+        "price": 0.2
+    },
+    {
+        "pluCode": 2030,
+        "name": "Vanilla Extract",
+        "weight": 281,
+        "calories": 26,
+        "price": 0.21,
+        "category": null,
+        "organic": false,
+        "fdaApproved": false
+    },
+    {
+        "pluCode": 1007,
+        "name": "Pineapple Juice",
+        "weight": 280,
+        "calories": 74,
+        "price": 0.45
+    },
+    {
+        "pluCode": 2031,
+        "name": "Ice",
+        "weight": 0,
+        "calories": 0,
+        "price": 0.01,
+        "category": null,
+        "organic": false,
+        "fdaApproved": false
+    },
+    {
+        "pluCode": 1008,
+        "name": "Coconut Milk",
+        "weight": 184,
+        "calories": 174,
+        "price": 0.1
+    },
+    {
+        "pluCode": 1009,
+        "name": "Yogurt",
+        "weight": 213,
+        "calories": 80,
+        "price": 0.1
+    }
+]

@@ -46,11 +46,11 @@ public class SmoothieMachine {
 
 		// Load Ingredients
 		Map<Integer, Ingredient> ingredients = getIngredients();
-		System.out.println(ingredients);
+		System.out.println(ingredients.size() + " Ingredients Found");
 
 		// Bring in recipes
 		Map<Integer, Recipe> recipes = getRecipes(ingredients);
-		System.out.println(recipes);
+		System.out.println(recipes.size() + " Recipes Found");
 
 		// does recipe id exist in map?
 		if (!recipes.containsKey(recipeId)) {
@@ -93,7 +93,7 @@ public class SmoothieMachine {
 					continue;
 				}
 
-				System.out.println(line);
+				// System.out.println(line);
 				// Parse the data
 				String[] columns = line.split(",");
 
@@ -151,24 +151,34 @@ public class SmoothieMachine {
 			// TODO Error handling within loop!
 			for (int i = 0; i < allRecipeData.size(); i++) {
 				ObjectNode recipeData = (ObjectNode) allRecipeData.get(i);
+				try {
 
-				// Convert into Recipe Object
-				Recipe r = new Recipe(recipeData.get("name").asText(), recipeData.get("id").asInt());
+					// Convert into Recipe Object
+					Recipe r = new Recipe(recipeData.get("name").asText(), recipeData.get("id").asInt());
 
-				ArrayNode allIngredientData = (ArrayNode) recipeData.get("ingredients");
+					ArrayNode allIngredientData = (ArrayNode) recipeData.get("ingredients");
 
-				for (int j = 0; j < allIngredientData.size(); j++) {
-					ObjectNode ingredientData = (ObjectNode) allIngredientData.get(i);
+					for (int j = 0; j < allIngredientData.size(); j++) {
+						ObjectNode ingredientData = (ObjectNode) allIngredientData.get(j);
 
-					Ingredient ing = ingredients.get(ingredientData.get("pluCode"));
-					Unit unit = Unit.valueOf(ingredientData.get("unit").asText());
-					int quantity = ingredientData.get("qty").asInt();
+						Ingredient ing = null;
+						if (ingredients.containsKey(ingredientData.get("pluCode").asInt())) {
+							ing = ingredients.get(ingredientData.get("pluCode").asInt());
+						} else {
+							throw new IllegalArgumentException("Couldn't find ingredient " + ingredientData.get("pluCode").asInt());
+						}
+						Unit unit = Unit.valueOf(ingredientData.get("unit").asText());
+						int quantity = ingredientData.get("qty").asInt();
 
-					r.addRecipeIngredient(new RecipeIngredient(ing, quantity, unit));
+						r.addRecipeIngredient(new RecipeIngredient(ing, quantity, unit));
+					}
+
+					// Add the recipe to the map!
+					recipes.put(r.getId(), r);
+				} catch (Exception e) {
+					System.out.println("Failed to handle recipe " + recipeData.get("id").asInt());
+					e.printStackTrace();
 				}
-
-				// Add the recipe to the map!
-				recipes.put(r.getId(), r);
 			}
 
 		} catch (Exception e) {
