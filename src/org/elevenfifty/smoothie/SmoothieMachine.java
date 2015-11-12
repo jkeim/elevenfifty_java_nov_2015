@@ -12,6 +12,8 @@ import org.elevenfifty.smoothie.beans.Base;
 import org.elevenfifty.smoothie.beans.Ingredient;
 import org.elevenfifty.smoothie.beans.Produce;
 import org.elevenfifty.smoothie.beans.Recipe;
+import org.elevenfifty.smoothie.beans.RecipeIngredient;
+import org.elevenfifty.smoothie.beans.RecipeIngredient.Unit;
 import org.elevenfifty.smoothie.beans.Smoothie;
 
 import com.fasterxml.jackson.databind.JsonNode;
@@ -146,12 +148,27 @@ public class SmoothieMachine {
 
 			ArrayNode allRecipeData = (ArrayNode) data.get("recipes");
 
+			// TODO Error handling within loop!
 			for (int i = 0; i < allRecipeData.size(); i++) {
 				ObjectNode recipeData = (ObjectNode) allRecipeData.get(i);
 
-				// TODO Convert into Recipe Object!!
+				// Convert into Recipe Object
+				Recipe r = new Recipe(recipeData.get("name").asText(), recipeData.get("id").asInt());
 
-				// TODO Add the recipe to the map!
+				ArrayNode allIngredientData = (ArrayNode) recipeData.get("ingredients");
+
+				for (int j = 0; j < allIngredientData.size(); j++) {
+					ObjectNode ingredientData = (ObjectNode) allIngredientData.get(i);
+
+					Ingredient ing = ingredients.get(ingredientData.get("pluCode"));
+					Unit unit = Unit.valueOf(ingredientData.get("unit").asText());
+					int quantity = ingredientData.get("qty").asInt();
+
+					r.addRecipeIngredient(new RecipeIngredient(ing, quantity, unit));
+				}
+
+				// Add the recipe to the map!
+				recipes.put(r.getId(), r);
 			}
 
 		} catch (Exception e) {
