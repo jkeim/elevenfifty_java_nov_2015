@@ -32,11 +32,12 @@ public abstract class AbstractIngredient implements Ingredient {
 		return new HashCodeBuilder().append(this.pluCode).toHashCode();
 	}
 
+	//Updated by Jeff Roberg added Calories, price and Weight on 11/12/2015
 	@Override
 	public String toString() {
-		return this.getClass().getSimpleName() + " : " + this.name + " (" + this.pluCode + ")";
+		return this.getClass().getSimpleName() + " : " + this.name + " (" + this.pluCode + ")" + "Calories " + this.calories + " Price " + this.price + " Weight " + this.weight;
 	}
-
+	
 	public int getPluCode() {
 		return pluCode;
 	}
