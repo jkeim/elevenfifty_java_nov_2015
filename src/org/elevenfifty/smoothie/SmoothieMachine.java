@@ -6,6 +6,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.Scanner;
 
 import org.apache.commons.io.IOUtils;
 import org.elevenfifty.smoothie.beans.AbstractIngredient;
@@ -44,15 +45,17 @@ public class SmoothieMachine {
 
 		// Bring in recipes
 		// TODO Replace with Map<Integer, Recipe>
-		List<Recipe> recipes = getRecipes(ingredients);
+		Map<Integer, Recipe> recipes = getRecipes(ingredients);
 		System.out.println(recipes);
 
 		// TODO does recipe id exist in map? If not return fancy english error
 		// message
-
+		
 		// TODO Makes the smoothies from a recipe and parameters
+		
 
 		// TODO Print out smoothie information to enjoy
+		
 	}
 
 	private static Map<Integer, Ingredient> getIngredients() {
@@ -121,9 +124,9 @@ public class SmoothieMachine {
 		return ingredients;
 	}
 
-	private static List<Recipe> getRecipes(Map<Integer, Ingredient> ingredients) {
+	private static Map<Integer, Recipe> getRecipes(Map<Integer, Ingredient> ingredients) {
 		// Open the File
-		List<Recipe> recipes = new ArrayList<Recipe>();
+		Map<Integer, Recipe> recipes = new HashMap<Integer, Recipe>();
 		BufferedReader reader = null;
 
 		try {
@@ -138,11 +141,14 @@ public class SmoothieMachine {
 
 				// Parse the data
 				String[] columns = line.split(",");
-
+				int Id = 0;
 				int numColumns = columns.length;
+				
 
 				if (numColumns == 2) {
-					r = new Recipe(columns[1], Integer.valueOf(columns[0]));
+					 Id = Integer.valueOf(columns[0]);
+					r = new Recipe(columns[1], Id);
+					
 
 				} else if (numColumns == 3) {
 					int pluCode = Integer.parseInt(columns[2]);
@@ -152,7 +158,8 @@ public class SmoothieMachine {
 					r.addRecipeIngredient(new RecipeIngredient(ing, Integer.valueOf(columns[0]), Unit.valueOf(columns[1])));
 
 				} else if (numColumns <= 1) {
-					recipes.add(r);
+					
+					recipes.put(Id, r);
 
 				}
 			}
