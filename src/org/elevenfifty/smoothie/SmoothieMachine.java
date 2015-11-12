@@ -18,21 +18,41 @@ import org.elevenfifty.smoothie.beans.RecipeIngredient;
 import org.elevenfifty.smoothie.beans.RecipeIngredient.Unit;
 
 public class SmoothieMachine {
+	private static enum Size {
+		SMALL(1), MEDIUM(1.5), LARGE(2);
+
+		double scale = 0;
+
+		Size(double scale) {
+			this.scale = scale;
+		}
+
+		public double getScale() {
+			return scale;
+		}
+	};
 
 	public static void main(String[] args) {
+		// Gather user input for smoothie construction
+		// TODO VALIDATE USER INPUT PROPERLY
+		Size s = Size.valueOf(args[0]);
+		int recipeId = Integer.valueOf(args[1]);
+
 		// Load Ingredients
 		Map<Integer, Ingredient> ingredients = getIngredients();
 		System.out.println(ingredients);
 
 		// Bring in recipes
+		// TODO Replace with Map<Integer, Recipe>
 		List<Recipe> recipes = getRecipes(ingredients);
 		System.out.println(recipes);
 
-		// Gather user input for smoothie construction
+		// TODO does recipe id exist in map? If not return fancy english error
+		// message
 
-		// Makes the smoothies from a recipe and parameters
+		// TODO Makes the smoothies from a recipe and parameters
 
-		// Print out smoothie information to enjoy
+		// TODO Print out smoothie information to enjoy
 	}
 
 	private static Map<Integer, Ingredient> getIngredients() {
