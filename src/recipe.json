@@ -51,6 +51,81 @@
                     "pluCode": 2005
                 }
             ]
+        },
+        {
+            "id": 30,
+            "name": "BlueBarry-Banana-Vodka",
+            "ingredients": [
+                {
+                    "qty": 2,
+                    "unit": "CUP",
+                    "pluCode": 1001
+                },
+                {
+                    "qty": 1,
+                    "unit": "CUP",
+                    "pluCode": 11
+                },
+                {
+                    "qty": 3,
+                    "unit": "TABLESPOON",
+                    "pluCode": 22
+                },
+                {
+                    "qty": 2,
+                    "unit": "TEASPOON",
+                    "pluCode": 2009
+                }
+            ]
+        },
+        {
+            "id": 31,
+            "name": "Cannabis-Rum",
+            "ingredients": [
+                {
+                    "qty": 1,
+                    "unit": "CUP",
+                    "pluCode": 1001
+                },
+                {
+                    "qty": 1,
+                    "unit": "CUP",
+                    "pluCode": 2010
+                },
+                {
+                    "qty": 3,
+                    "unit": "TABLESPOON",
+                    "pluCode": 32
+                },
+                
+            ]
+        },
+        {
+            "id": 33,
+            "name": "Blackberry-Carrots",
+            "ingredients": [
+                {
+                    "qty": 1,
+                    "unit": "CUP",
+                    "pluCode": 1001
+                },
+                {
+                    "qty": 1,
+                    "unit": "CUP",
+                    "pluCode": 18
+                },
+                {
+                    "qty": 1,
+                    "unit": "CUP",
+                    "pluCode": 35
+                },
+                {
+                    "qty": 3,
+                    "unit": "TABLESPOON",
+                    "pluCode": 2029
+                }
+                
+            ]
         }
     ]
 }
