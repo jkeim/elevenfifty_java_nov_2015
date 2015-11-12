@@ -163,7 +163,7 @@
                 {
                     "qty": 1,
                     "unit": "TABLESPOON",
-                    "pluCode": 2050
+                    "pluCode": 2005
                 }
             ]
         },
@@ -179,12 +179,12 @@
                 {
                     "qty": 1,
                     "unit": "WHOLE",
-                    "pluCode": 411
+                    "pluCode": 41
                 },
                 {
                     "qty": 5,
                     "unit": "WHOLE",
-                    "pluCode": 17111
+                    "pluCode": 171
                 },
                 {
                     "qty": 1,
@@ -205,7 +205,7 @@
                 {
                     "qty": 1,
                     "unit": "CUP",
-                    "pluCode": 412
+                    "pluCode": 42
                 },
                 {
                     "qty": 5,
@@ -224,19 +224,19 @@
             "name": "Kale-Banana",
             "ingredients": [
                 {
-                    "qty": 43,
+                    "qty": 4,
                     "unit": "CUP",
                     "pluCode": 1003
                 },
                 {
                     "qty": 3,
                     "unit": "WHOLE",
-                    "pluCode": 413
+                    "pluCode": 11
                 },
                 {
                     "qty": 5,
                     "unit": "CUP",
-                    "pluCode": 173
+                    "pluCode": 93
                 },
                 {
                     "qty": 1,
@@ -257,7 +257,7 @@
                 {
                     "qty": 1,
                     "unit": "CUP",
-                    "pluCode": 414
+                    "pluCode": 44
                 },
                 {
                     "qty": 5,
@@ -283,7 +283,7 @@
                 {
                     "qty": 1,
                     "unit": "CUP",
-                    "pluCode": 416
+                    "pluCode": 46
                 },
                 {
                     "qty": 5,
