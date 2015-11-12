@@ -1,0 +1,56 @@
+{
+    "recipes": [
+        {
+            "id": 1,
+            "name": "Pineapple-Orange",
+            "ingredients": [
+                {
+                    "qty": 2,
+                    "unit": "CUP",
+                    "pluCode": 1001
+                },
+                {
+                    "qty": 1,
+                    "unit": "CUP",
+                    "pluCode": 137
+                },
+                {
+                    "qty": 3,
+                    "unit": "TABLESPOON",
+                    "pluCode": 124
+                },
+                {
+                    "qty": 1,
+                    "unit": "TEASPOON",
+                    "pluCode": 2030
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Banana-Strawberry Energy",
+            "ingredients": [
+                {
+                    "qty": 2,
+                    "unit": "CUP",
+                    "pluCode": 1002
+                },
+                {
+                    "qty": 1,
+                    "unit": "WHOLE",
+                    "pluCode": 11
+                },
+                {
+                    "qty": 5,
+                    "unit": "WHOLE",
+                    "pluCode": 171
+                },
+                {
+                    "qty": 1,
+                    "unit": "TABLESPOON",
+                    "pluCode": 2005
+                }
+            ]
+        }
+    ]
+}
