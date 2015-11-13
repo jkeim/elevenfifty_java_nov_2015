@@ -1,10 +1,12 @@
 package org.elevenfifty.smoothie;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 import org.elevenfifty.smoothie.beans.BaseIngredient;
+import org.elevenfifty.smoothie.beans.DecoratableIngredient;
 import org.elevenfifty.smoothie.beans.Ingredient;
 import org.elevenfifty.smoothie.beans.Recipe;
 import org.elevenfifty.smoothie.beans.RecipeIngredient;
@@ -37,8 +39,22 @@ public class SmoothieMachine {
 	public static void main(String[] args) {
 		// Gather user input for smoothie construction
 		// TODO VALIDATE USER INPUT PROPERLY
+		int recipeId = 0;
 		Size size = Size.valueOf(args[0]);
-		int recipeId = Integer.valueOf(args[1]);
+		List<Integer> customRecipe = new ArrayList<Integer>();
+
+		if (args.length == 2) {
+			recipeId = Integer.valueOf(args[1]);
+
+		} else if (args.length < 2) {
+			System.out.println("Invalid parameters.  Please type a recipe id or ingredient list");
+			return;
+
+		} else {
+			for (int i = 1; i < args.length; i++) {
+				customRecipe.add(Integer.valueOf(args[i]));
+			}
+		}
 
 		// Load Ingredients
 		Map<Integer, Ingredient> ingredients = getIngredients();
@@ -49,24 +65,40 @@ public class SmoothieMachine {
 		System.out.println(recipes.size() + " Recipes Found");
 
 		// does recipe id exist in map?
-		if (!recipes.containsKey(recipeId)) {
-			// If not return fancy English error message
-			throw new IllegalArgumentException("Recipe " + recipeId + " not found!");
+		if (recipeId > 0) {
+			if (!recipes.containsKey(recipeId)) {
+				// If not return fancy English error message
+				throw new IllegalArgumentException("Recipe " + recipeId + " not found!");
+			}
+
+			// Makes the smoothies from a recipe and parameters
+			Recipe r = recipes.get(recipeId);
+
+			Smoothie smoothie = new Smoothie();
+			smoothie.setCalories((int) Math.ceil(size.getScale() * r.calculateCalories()));
+			smoothie.setWeight((int) Math.ceil(size.getScale() * r.calculateWeight()));
+			smoothie.setPrice(size.getScale() * r.calculatePrice());
+			smoothie.setSize(size);
+			smoothie.setName(r.getName());
+
+			System.out.println(smoothie);
+
+		} else if (!customRecipe.isEmpty()) {
+			// Stuff
+			DecoratableIngredient smoothie = null;
+			for (Integer i : customRecipe) {
+				if (ingredients.containsKey(i)) {
+					smoothie = new DecoratableIngredient(ingredients.get(i), smoothie);
+				}
+			}
+
+			System.out.println(smoothie);
+			System.out.println("Calories: " + Math.ceil(size.getScale() * smoothie.calculateCalories()));
+			System.out.println("Price: $" + Math.ceil(size.getScale() * smoothie.calculatePrice()));
+			System.out.println("Weight: " + Math.ceil(size.getScale() * smoothie.calculateWeight()));
 		}
-
-		// Makes the smoothies from a recipe and parameters
-		Recipe r = recipes.get(recipeId);
-
-		Smoothie smoothie = new Smoothie();
-		smoothie.setCalories((int) Math.ceil(size.getScale() * r.calculateCalories()));
-		smoothie.setWeight((int) Math.ceil(size.getScale() * r.calculateWeight()));
-		smoothie.setPrice(size.getScale() * r.calculatePrice());
-		smoothie.setSize(size);
-		smoothie.setName(r.getName());
-
 		// Print out smoothie information to enjoy
 
-		System.out.println(smoothie);
 	}
 
 	// TODO Convert the ingredients data and parsing to JSON
