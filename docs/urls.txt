@@ -1,0 +1,7 @@
+Head First Design Patterns
+https://www.dropbox.com/s/6i45v1wcx0k70qx/Head%20First%20Design%20Patterns.pdf?dl=0
+
+Effective Java
+https://www.dropbox.com/s/ncaq523ctirb9xe/Effective%20Java%2C%202nd%20Edition.pdf?dl=0
+
+https://github.com/winterbe/java8-tutorial#modern-java---a-guide-to-java-8
