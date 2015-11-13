@@ -35,10 +35,16 @@ public class SmoothieMachine {
 	private static final ObjectMapper jsonMapper = new ObjectMapper();
 
 	public static void main(String[] args) {
-		// Gather user input for smoothie construction
-		// TODO VALIDATE USER INPUT PROPERLY
-		Size size = Size.valueOf(args[0]);
-		int recipeId = Integer.valueOf(args[1]);
+		Size size;
+		int recipeId;
+		if(args.length == 0){
+			System.out.println("You did not specify a drink. Would you lik to try a sample of our best seller?");
+			size = Size.LARGE;
+			recipeId = 2;
+		}else{
+		size = Size.valueOf(args[0]);
+		
+		recipeId = Integer.valueOf(args[1]);}
 
 		// Load Ingredients
 		Map<Integer, Ingredient> ingredients = getIngredients();
@@ -51,6 +57,7 @@ public class SmoothieMachine {
 		// does recipe id exist in map?
 		if (!recipes.containsKey(recipeId)) {
 			// If not return fancy English error message
+			
 			throw new IllegalArgumentException("Recipe " + recipeId + " not found!");
 		}
 
